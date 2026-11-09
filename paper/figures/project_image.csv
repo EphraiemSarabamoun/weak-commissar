@@ -1,0 +1,6 @@
+label,mean,lo,hi,source,worlds,status,holm_p
+"Principal's own voice, no commissar (A1W)",0.5375,0.2849,0.7901,experiments/commissar/a1w-vs-a0.json gap_change,8,preregistered,0.0234
+Commissar posts on chat (A1),-0.08,-0.5395,0.3795,experiments/commissar/a1-vs-a0.json gap_change,5,preregistered,
+"Commissar rewrites, untrained (R5v22)",0.4333,0.0048,0.8618,experiments/commissar/r5v22-confirm.json primary_and_secondaries.gap_change,6,preregistered,
+"Fine-tuned commissar, round 1 (R5ft)",0.025,-0.2228,0.2728,experiments/commissar/r5ft-confirm.json primary_and_secondaries.gap_change,8,preregistered,
+"Fine-tuned commissar, round 2 (R5ft2x)",0.1625,-0.1269,0.4519,experiments/commissar/r5ft2x-confirm.json primary_and_secondaries.gap_change,8,exploratory,

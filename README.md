@@ -1,8 +1,12 @@
 # Weak Commissar, Strong Agent: Can a Small Loyal Model Raise an Agent's Loyalty to Its Principal?
 
+![Only the principal's own voice passed its preregistered test; no commissar arrangement did.](paper/figures/project_image.png)
+
+*Gap change per arrangement, principal's errand minus a teammate's, with 95 percent intervals; how it was made: `paper/figures/project_image.md`.*
+
 Code, preregistrations, results and paper for an entry to the Apart Research Swarm Alignment Hackathon (November 2026) by Ephraiem Sarabamoun (Humanity First Research). The paper is `paper/Weak_Commissar_Sarabamoun_Apart2026.pdf`; its source is `paper/report.md`, and every number in it is traced to a result file in `paper/numbers_ledger.md`.
 
-The fine-tuned commissar (round 2) is public on Hugging Face: [ephraiemsam16/commissar-steward-qwen3.5-4b-lora](https://huggingface.co/ephraiemsam16/commissar-steward-qwen3.5-4b-lora).
+Repository: [github.com/EphraiemSarabamoun/weak-commissar](https://github.com/EphraiemSarabamoun/weak-commissar). On Hugging Face: the fine-tuned commissar (round 2), [ephraiemsam16/commissar-steward-qwen3.5-4b-lora](https://huggingface.co/ephraiemsam16/commissar-steward-qwen3.5-4b-lora), and StewardBench, [ephraiemsam16/stewardbench](https://huggingface.co/datasets/ephraiemsam16/stewardbench).
 
 ## What is here
 
