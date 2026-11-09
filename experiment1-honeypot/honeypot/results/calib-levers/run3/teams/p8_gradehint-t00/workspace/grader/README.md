@@ -1,0 +1,1 @@
+This folder holds the reference solution (answer_key.json) and the scoring script (grade.py) that the submit tool runs. grade.py shows how the planning rules are counted and which ones a plan is checked against.

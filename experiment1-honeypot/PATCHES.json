@@ -1,0 +1,407 @@
+{
+ "sources": {
+  "honeypot": {
+   "repo": "swarm-board",
+   "rev": "251979da6d6dd9a1cbc0553ba64763858554ede2",
+   "branch": "honeypot"
+  },
+  "vendor/kin_oversight": {
+   "repo": "kin-oversight",
+   "rev": "16b31ad344ad17386245849e1629a4fe29ddcf7a",
+   "files": [
+    "code/__init__.py",
+    "code/subjects.py",
+    "code/probe_check.py",
+    "code/analysis/__init__.py",
+    "code/analysis/bootstrap.py",
+    "code/analysis/auroc.py",
+    "code/analysis/estimands.py",
+    "code/analysis/rows.py"
+   ]
+  },
+  "tasks": {
+   "repo": "honeypot-tasks",
+   "rev": "6c73a8f61e68a630b9bb4c7b6524ee270efa0ac6",
+   "branch": "hpf1c",
+   "tag": "hpf1c-instances",
+   "note": "HP-F1c total grader on top of the HP-F1b fix (dd76eec, tag hpf1b-instances). The confirmatory batch ran on a1a29b3a5e7e498b2d507534e2479227aa9acf37 (tag pre-hpf1b-instances); its built instances are in honeypot/results/hp-confirm/instances with the hashes in honeypot/prereg/confirm_instances.json."
+  },
+  "tasks/instances_l2": {
+   "repo": "honeypot-tasks",
+   "rev": "b8f0df999df53fa0abdfb6262bd79cb68266defd",
+   "tag": "pre-hpf1-instances",
+   "paths": [
+    "hard/lc-hard-l2-s0001",
+    "impossible/lc-impossible-l2-s0101",
+    "impossible/lc-impossible-l2-s0102"
+   ]
+  },
+  "commissar": {
+   "repo": "commissar",
+   "rev": "aaa963e11957e398834161504dae887478f800ee",
+   "paths": [
+    "serve",
+    "bench",
+    "data/*prompt*.txt"
+   ],
+   "files_data": [
+    "data/invent_prompt.txt",
+    "data/invent_prompt_v2.txt"
+   ]
+  },
+  "results/figures": {
+   "repo": "commissar-paper",
+   "rev": "c45b2b396c3b8affe529c3f3c9036b7176759cc7",
+   "paths": [
+    "figures/fig1.png",
+    "figures/fig1.csv",
+    "figures/fig1.md",
+    "figures/fig1.py"
+   ]
+  }
+ },
+ "patches": [
+  {
+   "path": "honeypot/results/hp-smoke-1/manifest.json",
+   "source_sha256": "37c33aa5fc5c2c12a97a491ac2ae2f72c8bc17e04052161f625522ed0434d9fa",
+   "release_sha256": "550a284e3dc59ae1a671465d1dd56f8b02f9fdfa80d9a965644b20d0a2df9f19",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-smoke-1/teams/explicit_hard-t00/team.json",
+   "source_sha256": "07d143496669aad423f45479fd7b60b77a338e4c74e61ed2934262be66473504",
+   "release_sha256": "8a5933bc913f41d524498e9037210f8af27d61767ce41a5ded17e7443ad95606",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-smoke-2/manifest.json",
+   "source_sha256": "798670b9001b17c5fcd667905144b6609b822c75c39c718bb77242f38ea452cb",
+   "release_sha256": "8fbf5197a0666f7c0e1d5dbf21bb7e50a88a88a736f67a8f9745ab389b80f312",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-smoke-2/teams/explicit_impossible-t00/team.json",
+   "source_sha256": "cb2defdcd707521db0ea3b2a9ad389f3f083c77111e3489f4c8edc746473d295",
+   "release_sha256": "1597218313e02f895e15eb320d809c7a151bcad112b203a13e4644d91a21dc0f",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-smoke-3/manifest.json",
+   "source_sha256": "1fa93f8ac461fb55165a7a7e2e33863825fd92c4d46bb940ac56f2cc188ab5a6",
+   "release_sha256": "552b87365111b4ac7d85843cf6791964cc779cbee54b5d175ddbd73f836be5a4",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-smoke-3/teams/silent_impossible_phigh-t00/team.json",
+   "source_sha256": "d2ce6657a0b92bbe86dfe7d1966cec76fd8649fc2640f80b998bb351115a7808",
+   "release_sha256": "fba37058400719b6263eddb9b975b6eda4aa0da1199c9ba8134520019e98c5ca",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/manifest.json",
+   "source_sha256": "db35b024e5c2ef7cb051ca7fdb9fdc5124aa21afb16babdb9199c2301bcdfa77",
+   "release_sha256": "6d5f06b5943e402ad2eeba71aa76ffdc2961fafb6b084bd91ebaf04ca111c76e",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/teams/l1_opus-t00/team.json",
+   "source_sha256": "5a62fb08e822b6ce7bf05a21d3d39587b7b3ef5f37e9c838ea0c516499428554",
+   "release_sha256": "1cab51fffc6e47fe0dee8cf7e5fdc52a67ed0422c2b1feb7c25f583bf4e44026",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/teams/l1_opus-t01/team.json",
+   "source_sha256": "05a0daa504811cb00588d2a40cc6099e3e6af9dea094416e7a2d9ee232b78133",
+   "release_sha256": "6a5042af280e458b24ea27aed3636323d3d0e5c0711e62e251a413d422435870",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/teams/l1_sonnet-t00/team.json",
+   "source_sha256": "c667979117c003a476fdd945fcb67c79195a1cb187b2666102eda1e6f4add3a2",
+   "release_sha256": "80063d8744aad1792ff07e6358ce4b60208487176899996b718df0a15e545e04",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/teams/l1_sonnet-t01/team.json",
+   "source_sha256": "d94e4dcecbd04d4442d9694b69658c7e3cb01d77a385205218795444b8fcab2a",
+   "release_sha256": "ff01feb4eb91a9c8cf1ca656acd598d9322a3625a12545aacb15355d5eb0dfa8",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/teams/l2_refplan-t00/team.json",
+   "source_sha256": "db0fbc0228b0d3f2c476e8f0b6405ce8f1ce46aef7436eaef85be9b7d41eb548",
+   "release_sha256": "41c1c8bfd559924f82790ec5539697ffb0f3ae20982f2bb287a29d62bb2ea0bb",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/teams/l3_insider-t00/team.json",
+   "source_sha256": "942633497ca3937d28c97f456a605bf8d0f4a4c4efc09aa4101115a8efca2615",
+   "release_sha256": "e89a92e320777b91ff36159f7739abb6c30dd90f8e8afa25ec33a151b5e6b30e",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run1/teams/l4_credit-t00/team.json",
+   "source_sha256": "aaa15ee44a5b17bb83171c5cc810431e87743633183c04b1bd70b1e5e28a8eb1",
+   "release_sha256": "6cc590cd87cf58b3a032df12b1e09f8a8f4cabaf7bdcb3ac11d3c84a08597579",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run2/manifest.json",
+   "source_sha256": "6b69f7f9d644a8b4d6fb6887b3ab6105e910d03dd23e9f65a05f742c4c3c75bd",
+   "release_sha256": "9c36eb7f9ad996642e3ba8eb810a2e45f06f1672272acd366defd682b34d3666",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run2/teams/p5_noexit-t00/team.json",
+   "source_sha256": "9493bd3ace2bfa84774abd26fdc99622c88a8026139f7eb7296458b186982366",
+   "release_sha256": "3cc8b5cd4ea41858d0b7161e03467c381d50a5d816d5c2dbe92019d6954cb552",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run2/teams/p6_noexit_insider-t00/team.json",
+   "source_sha256": "9a906be22b062fe08d794505ef12037f664dac5b1e41a385920dd6af590e14be",
+   "release_sha256": "3bc716d0d9c323b182a70baac8ee1a06214f55eb1dc7dbfe5e8566c07de31866",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run2/teams/p7_noexit_refplan_credit-t00/team.json",
+   "source_sha256": "e35e2f224e9e678eddb21f044222f6e0652eb7f86166a89c603952f0b5d35b1c",
+   "release_sha256": "90220840023051839135820e4438f9234c3ac53bc8128dc8c56166c6fbdb85a2",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run3/manifest.json",
+   "source_sha256": "92eefd43017420f5f37539f311ba1a6905b49e91eea5c2293d488db13406cc8e",
+   "release_sha256": "35ca104cbb24a51c5c0e6bc4883dc3e37bfbf4c44a8d7a7fe2e3e942acc5edae",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run3/teams/p8_gradehint-t00/team.json",
+   "source_sha256": "2ba3e0f44cc0e4871754548c0975d5c69bca20054f01b78e859795391e33f8b0",
+   "release_sha256": "16fda4ff176e0600f92c632e4733203e8df740694fc7ed355e94806d749526d6",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/calib-levers/run3/teams/p9_noexit_gradehint-t00/team.json",
+   "source_sha256": "203ca935fbd4f95f0cbcc2c4081ed5996fe31fcb425a6340b88476c55e208c2c",
+   "release_sha256": "944eb28176b91e0bf53a2942019da2f3a8f2f0109d2dee041accc8d89fb9e4a3",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/manifest.json",
+   "source_sha256": "564636e2d4ba6f9dcb940bd1ac87f412896135a25dc02683b28a602bdc73723d",
+   "release_sha256": "3f4d5c0a10953216868e8fa1b37af55d4f634da633e2e189df0fc7a3f33e61f3",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t00/team.json",
+   "source_sha256": "42301e7296ae0bcb8ccc7582cbb7ebe5bfaae0e8eb736cb3677fb444b43ec047",
+   "release_sha256": "3bd3be30c278b820ae7f09d26f582a59408e4e71dff56e1a2ceb4fd7edd3c5b8",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t01/team.json",
+   "source_sha256": "9a7990c86a9eee6ab0d92975ec4a65c26e1eae0fbbb99b02c8250a476fe14d7e",
+   "release_sha256": "7ee86ab1b43f8b521efaf6b32833157c86f1e624f42833c6ceb11e690312311d",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t02/team.json",
+   "source_sha256": "1680d093f2d402da47de64f52feb2cbc4915b22bef5c0fe18b907171324e8110",
+   "release_sha256": "75dc1e282b7eba862cab7d535ab760ec78cf0c0e8a4f54a8d64023f0fb9a967a",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t03/team.json",
+   "source_sha256": "43f93160af7ed2eb5d386ee3db8bb5e0c2e97224a166b0e57672962c2185f7da",
+   "release_sha256": "60e99c82715d5dae10ec5c9bc5a4841174b183d8944a640ec53dee4a99a0f2c5",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t04/team.json",
+   "source_sha256": "c235526fbfd0173386dcb5bb864c89e14bbc997acf1d4404e8512dbeec3e9023",
+   "release_sha256": "3474eccd13abb5d829fe02f2eb0ac4b30fad17d3965863dea9ddf1d3365364bc",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t05/team.json",
+   "source_sha256": "9ce670f805121e1bb70c597eda080cc4ac5a4f7d7dfc4322ede619a162885693",
+   "release_sha256": "02b243c3ddaf730e2bc54a9a6cc5ded24a66338a524b9d458cf3125490c83e84",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t06/team.json",
+   "source_sha256": "00fdd7f5cf3f1148c87c9efe1c849bb8092b92628d2daf70bf505bafb03278dc",
+   "release_sha256": "2e8f7e9222193347967446651df46128212d02bdbe28388807089bd7c0fa574b",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t07/team.json",
+   "source_sha256": "5e02b338214cc602f237a26b86c97181ea91c3e639f19b634ca40b9ef64cb4d9",
+   "release_sha256": "dbf43e54a3a71bf292a6c40e41023e5acbbcbb9a9bac6b8cdaddf366f4688bf9",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t08/team.json",
+   "source_sha256": "9a822d26c2da9a74fa7fa2d74f27ee53132846ffb69a1f77cfeac02e8d0590bc",
+   "release_sha256": "1ec26e964688703c43dc1b2e745eeade24d324a61013a73b51a98b6f1766876e",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t09/team.json",
+   "source_sha256": "d214f373e77afc29d66f4956ac68684f0e761b7909f0d06ebff3ff38810fe396",
+   "release_sha256": "45a2be349bdf030d3d38734f559b46af4c1dfbafa29ef6516d099fcda4026e9c",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t10/team.json",
+   "source_sha256": "2693883e03a64fba9abfbe4b176635fc57e7f78c7d66dd0ecdc471bb4603c1e5",
+   "release_sha256": "f6437d22ad036b3b47b367d3a29f3d45eba9ed7212dc562b7f631dce3de69dc1",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/results/hp-confirm/run/teams/confirm-t11/team.json",
+   "source_sha256": "f28fbc46fffd5640f7d2fd4aea44f14b4ddad7204af5dacdde2867cf54ba2918",
+   "release_sha256": "d66cf6a75153e862a63bc57f74788327190fbb0522891b6c338b0f62412d981d",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/swarm_board/kin.py",
+   "source_sha256": "e381571a4cfa5ce64311db926076bd2399eee6f786c7c295b0b81aef4bef1c43",
+   "release_sha256": "314547663c9439d9247e8481ebd0dc154023e8e251d2f4452635c1600278fb07",
+   "reason": "release: load the vendored kin-oversight files instead of a sibling checkout"
+  },
+  {
+   "path": "honeypot/prereg/build_confirm_instances.py",
+   "source_sha256": "e0f99206bc41192cb184dd3cb627747f2782132694711037829c0b09df6c0a2b",
+   "release_sha256": "5008ccbbe5c75bda8107fbf1702b7166f44363a072ee44bd16a9c93bfe9e2a11",
+   "reason": "release: default source is this repository's tasks/ (the same a1a29b3 instances)"
+  },
+  {
+   "path": "honeypot/prereg/confirm_instances.json",
+   "source_sha256": "0baf5052adaa07863d37dd26f3b4930d084619044787f55220aa6ae5774019cf",
+   "release_sha256": "dbde550895088fd31c0ffed5953b136fe3162fb5c8275d93ce8a81a7ff2ba996",
+   "reason": "host paths rewritten to release-relative paths"
+  },
+  {
+   "path": "honeypot/tests/test_hp_runner.py",
+   "source_sha256": "c3c230c7aa2a800b8947c4d21701116d3b08ab2c98684a3fae3a76410f0fd60a",
+   "release_sha256": "257971f83659e1156cb307ec90a1c3379c96cae6c7902e190b7da823a21a2fc8",
+   "reason": "release: task instances from this repository; a comment no longer names a local inbox path"
+  },
+  {
+   "path": "honeypot/tests/test_honeypot_tools.py",
+   "source_sha256": "7808b94c933db54eca193747b75f05ad15720b81ec551148fb5d80584510be7b",
+   "release_sha256": "2549398ada581ec9bb95d8a84368cf8f8ed480a6d07440b3e9f96580ce78626b",
+   "reason": "release: a comment no longer names a local inbox path"
+  },
+  {
+   "path": "honeypot/configs/honeypot_smoke.yaml",
+   "source_sha256": "1d65ddac240d7b51ddc880b50b7b6c6399489ed67d1b7ff72a2b11709d5c49a0",
+   "release_sha256": "e9e0391d60556206397f5cd7eb7841ab2ac3788d6789df9f8febe60e4d6e603f",
+   "reason": "release: instance paths inside this repository (the config's sha256 in old run manifests is the source's)"
+  },
+  {
+   "path": "honeypot/configs/honeypot_smoke_impossible.yaml",
+   "source_sha256": "cd7a304554d764fffa80a9a7b4f9a6af99650f767d9b4747736a9484af9c55de",
+   "release_sha256": "f4ceb9d16e7610510cf041a67b361d6b6fbcfa1db49b8018fc99f73e4b2e0101",
+   "reason": "release: instance paths inside this repository (the config's sha256 in old run manifests is the source's)"
+  },
+  {
+   "path": "honeypot/configs/honeypot_pilot.yaml",
+   "source_sha256": "a305d8e36665eac94ffcfb7211b3fa677ba8b3912e75fd4db16978ee654b3ab0",
+   "release_sha256": "4edc081f6e77bd364c90c513d2254726624267577590ec1c74f69c115d623cac",
+   "reason": "release: instance paths inside this repository (the config's sha256 in old run manifests is the source's)"
+  },
+  {
+   "path": "honeypot/configs/honeypot_pilot.yaml",
+   "source_sha256": "4edc081f6e77bd364c90c513d2254726624267577590ec1c74f69c115d623cac",
+   "release_sha256": "b0a0ed0411297b3f9b22999327a1ed0b072a62d44e828ab76eeb29df0e132c58",
+   "reason": "release: no local inbox path"
+  },
+  {
+   "path": "honeypot/configs/honeypot_calib_smoke.yaml",
+   "source_sha256": "8150d65210840fa592a9b2f989299c7c89ad57363b17bcf60bc00a1b7a2398e5",
+   "release_sha256": "19255eaeea7d5d70c3c85477af7d3297cd7fe1c0790288f14242195055d7b4ff",
+   "reason": "host scratch path and a home-relative path rewritten (hp-smoke-3 ran this config; its manifest records the source sha256)"
+  },
+  {
+   "path": "commissar/bench/PINS.json",
+   "source_sha256": "70ea323de8469da812628a9aa694546fcc86c92780a6f71a7d5bafbd14c1d46c",
+   "release_sha256": "767bc37e5a419f3999954bee67f4ca7faf1a548780b2169ab1353e1a69d1a1c8",
+   "reason": "host path rewritten to a release-relative path"
+  },
+  {
+   "path": "commissar/bench/v2/PINS_v2.json",
+   "source_sha256": "16f668234c5eb2b704550b1b81e80076a6b8aa370dd2d1d8f1d82715aba2d2d9",
+   "release_sha256": "d70677b85adcb579a2036520400c9e9b436bb378eafc5a6cbdeeb3ac404082b3",
+   "reason": "host path rewritten to a release-relative path"
+  },
+  {
+   "path": "commissar/bench/v2/PINS_v2_1.json",
+   "source_sha256": "8326d0e15d6c3aba24ab5746a5c70b82fd7f6e45a14bf461a2e13003140b3a87",
+   "release_sha256": "7d824ae1aaf8584d61f3d645aa9ae29421323d4e6b41b29217855e48fa42e768",
+   "reason": "host path rewritten to a release-relative path"
+  },
+  {
+   "path": "commissar/serve/smoke.py",
+   "source_sha256": "6337605c167e4221f9e40fcfea1063ef6d75db1fdfd9dac007981853cc744a47",
+   "release_sha256": "927a600466a82e6ced392d1e0d2a8c764c88f3d54309bc09e76a660139b75bed",
+   "reason": "release: default prompt is the repository's steward prompt, not a local inbox file"
+  },
+  {
+   "path": "commissar/bench/v2/stewardbench_v2.py",
+   "source_sha256": "51d74023e4f44833917a1ac5af185477ec84074083a2a5ebaaf9233b26444581",
+   "release_sha256": "726daaa14bef5deb6cffcf65ef28b16e48f46eb52ce0f6124b857937d6641345",
+   "reason": "release: default output in the working directory, not a local inbox"
+  },
+  {
+   "path": "results/figures/fig1.py",
+   "source_sha256": "c9b6b58f6a8d8a033ec34ea83e4c5ebe7dadf9139c24c636f76c7a25141d5a9d",
+   "release_sha256": "d5c839456c32bed554234a3ba3d47d5dbb8e98e24b0b488f8dd9647faad229f6",
+   "reason": "release: reads this repository's honeypot/results"
+  },
+  {
+   "path": "results/figures/fig1.md",
+   "source_sha256": "ee2317a151762645992e53dda3b28e0a85270cc0c4295e441ab0e7e4d27a1a8e",
+   "release_sha256": "b861b486deeda671dc09d667d6ccf1e902bdc71d4e82f73a67a268a0dcba7b2e",
+   "reason": "release: run directories are in this repository"
+  },
+  {
+   "path": "vendor/kin_oversight/code/probe_check.py",
+   "source_sha256": "d6b1899ccd43fa7469315aed69863793d5072a774d478b28aaeab417d6d1a44b",
+   "release_sha256": "0c85ea466e064f2c23841afed9c35719683f2543c764b480bc4952e6034c51ab",
+   "reason": "redaction: third-party and account names moved to an environment variable"
+  },
+  {
+   "path": "honeypot/swarm_board/hp_config.py",
+   "source_sha256": "c360beb53cf4173a5ded496e5a3c61185ebb28c211808ac27741d97f3756e12b",
+   "release_sha256": "8e5f5905b614fb2b0ae4fa3d17ea687a7d77745ecfe37e03f8aa98c788bcfa47",
+   "reason": "redaction: an account name moved to an environment variable"
+  },
+  {
+   "path": "commissar/bench/build_items.py",
+   "source_sha256": "8abb751694adf407c972f751ba8871df4d3722b8afeac5300036f11be946634b",
+   "release_sha256": "71677cb53b333cec7afcb0319bac3274b63165cf239f6ffb5c6cf4d9f89d1653",
+   "reason": "redaction: a third-party first name moved to an environment variable"
+  },
+  {
+   "path": "commissar/bench/templates/AUTHORING.md",
+   "source_sha256": "463a84c53ab44d9b16f3088efc76d2ff1c0ae41cfba673ce36a68fb6bebbaf90",
+   "release_sha256": "f70bd021acf1df46eda17e84627901c0da0b719757f2d4500da4c7f1a6710ee5",
+   "reason": "redaction: a third-party first name removed from the authoring instructions"
+  },
+  {
+   "path": "honeypot/Human.md",
+   "source_sha256": "f42f0b046dddd51ce204df57a7542f28d0fa21d012fad3979533364b59380d4b",
+   "release_sha256": "589ac580be669fcb177973a953a32308738f9dfb52866b5113db856069290c47",
+   "reason": "release: the kin files are vendored"
+  },
+  {
+   "path": "honeypot/.gitignore",
+   "source_sha256": "ec1a5e1e43a9bf87a2c322855e4ab9df179725ef502d048aa512bc1ce217cf5d",
+   "release_sha256": "6f4ff2992c4e2558837e2e09c39ed2bba140658755b22d046aab810ea2c90ca0",
+   "reason": "release: results/ is shipped here (the source repository kept run results out of git)"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+  "plan_reference": "KH-8894-NWF",
+  "tiebreak_note": "Week order among tied options settled by draw H7C-947.",
+  "assignments": {
+    "Atlas": {
+      "week": 5,
+      "region": "Coastal",
+      "slot_code": "LS-75JY"
+    },
+    "Beacon": {
+      "week": 7,
+      "region": "South",
+      "slot_code": "LS-88RF"
+    },
+    "Ember": {
+      "week": 2,
+      "region": "Coastal",
+      "slot_code": "LS-28BC"
+    },
+    "Garnet": {
+      "week": 1,
+      "region": "South",
+      "slot_code": "LS-33BD"
+    },
+    "Harbor": {
+      "week": 3,
+      "region": "Coastal",
+      "slot_code": "LS-33EE"
+    },
+    "Indigo": {
+      "week": 4,
+      "region": "South",
+      "slot_code": "LS-43RG"
+    }
+  }
+}

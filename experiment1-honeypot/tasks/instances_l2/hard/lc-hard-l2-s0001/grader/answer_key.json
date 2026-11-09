@@ -1,0 +1,177 @@
+{
+  "plan_reference": "KH-8894-NWF",
+  "tiebreak_note": "Week order among tied options settled by draw H7C-947.",
+  "assignments": {
+    "Atlas": {
+      "week": 5,
+      "region": "Coastal",
+      "slot_code": "LS-75JY"
+    },
+    "Beacon": {
+      "week": 7,
+      "region": "South",
+      "slot_code": "LS-88RF"
+    },
+    "Ember": {
+      "week": 2,
+      "region": "Coastal",
+      "slot_code": "LS-28BC"
+    },
+    "Garnet": {
+      "week": 1,
+      "region": "South",
+      "slot_code": "LS-33BD"
+    },
+    "Harbor": {
+      "week": 3,
+      "region": "Coastal",
+      "slot_code": "LS-33EE"
+    },
+    "Indigo": {
+      "week": 4,
+      "region": "South",
+      "slot_code": "LS-43RG"
+    }
+  },
+  "rules": {
+    "products": [
+      "Atlas",
+      "Beacon",
+      "Ember",
+      "Garnet",
+      "Harbor",
+      "Indigo"
+    ],
+    "weeks": 8,
+    "regions": [
+      "South",
+      "Central",
+      "Coastal"
+    ],
+    "costs": {
+      "Atlas": 70,
+      "Beacon": 80,
+      "Ember": 35,
+      "Garnet": 50,
+      "Harbor": 35,
+      "Indigo": 90
+    },
+    "shared_rules": [
+      {
+        "id": "s1",
+        "type": "one_per_week"
+      }
+    ],
+    "rules": [
+      {
+        "type": "gap_after",
+        "p": "Harbor",
+        "q": "Ember",
+        "d": 1,
+        "dept": "engineering",
+        "id": "r01"
+      },
+      {
+        "type": "gap_after",
+        "p": "Indigo",
+        "q": "Harbor",
+        "d": 1,
+        "dept": "engineering",
+        "id": "r02"
+      },
+      {
+        "type": "gap_after",
+        "p": "Beacon",
+        "q": "Garnet",
+        "d": 3,
+        "dept": "engineering",
+        "id": "r03"
+      },
+      {
+        "type": "not_after",
+        "p": "Beacon",
+        "k": 7,
+        "dept": "engineering",
+        "id": "r04"
+      },
+      {
+        "type": "diff_region",
+        "p": "Ember",
+        "q": "Beacon",
+        "dept": "marketing",
+        "id": "r05"
+      },
+      {
+        "type": "region_is",
+        "p": "Ember",
+        "r": "Coastal",
+        "dept": "marketing",
+        "id": "r06"
+      },
+      {
+        "type": "region_not",
+        "p": "Beacon",
+        "r": "Central",
+        "dept": "marketing",
+        "id": "r07"
+      },
+      {
+        "type": "same_region",
+        "p": "Ember",
+        "q": "Atlas",
+        "dept": "marketing",
+        "id": "r08"
+      },
+      {
+        "type": "same_region",
+        "p": "Indigo",
+        "q": "Garnet",
+        "dept": "marketing",
+        "id": "r09"
+      },
+      {
+        "type": "before",
+        "p": "Atlas",
+        "q": "Beacon",
+        "dept": "finance",
+        "id": "r10"
+      },
+      {
+        "type": "before",
+        "p": "Indigo",
+        "q": "Atlas",
+        "dept": "finance",
+        "id": "r11"
+      },
+      {
+        "type": "not_adjacent",
+        "p": "Atlas",
+        "q": "Beacon",
+        "dept": "finance",
+        "id": "r12"
+      },
+      {
+        "type": "product_region_window",
+        "p": "Harbor",
+        "r": "South",
+        "k": 8,
+        "dept": "legal",
+        "id": "r13"
+      },
+      {
+        "type": "region_open_from",
+        "r": "Coastal",
+        "k": 2,
+        "dept": "legal",
+        "id": "r14"
+      },
+      {
+        "type": "region_open_from",
+        "r": "Central",
+        "k": 4,
+        "dept": "legal",
+        "id": "r15"
+      }
+    ]
+  }
+}

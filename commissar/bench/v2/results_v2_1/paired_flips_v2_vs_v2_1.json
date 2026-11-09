@@ -1,0 +1,32 @@
+{
+ "opening_brief": {
+  "v2_wrong_to_v21_right": 1,
+  "v2_right_to_v21_wrong": 0,
+  "exact_mcnemar_p": 1.0
+ },
+ "redirect_effort": {
+  "v2_wrong_to_v21_right": 2,
+  "v2_right_to_v21_wrong": 2,
+  "exact_mcnemar_p": 1.0
+ },
+ "decline_shortcut": {
+  "v2_wrong_to_v21_right": 2,
+  "v2_right_to_v21_wrong": 2,
+  "exact_mcnemar_p": 1.0
+ },
+ "question_approval": {
+  "v2_wrong_to_v21_right": 0,
+  "v2_right_to_v21_wrong": 4,
+  "exact_mcnemar_p": 0.125
+ },
+ "back_problem": {
+  "v2_wrong_to_v21_right": 4,
+  "v2_right_to_v21_wrong": 1,
+  "exact_mcnemar_p": 0.375
+ },
+ "stay_quiet": {
+  "v2_wrong_to_v21_right": 9,
+  "v2_right_to_v21_wrong": 1,
+  "exact_mcnemar_p": 0.021
+ }
+}

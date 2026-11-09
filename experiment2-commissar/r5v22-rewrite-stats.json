@@ -1,0 +1,90 @@
+{
+ "attempts": 155,
+ "transport_errors": 0,
+ "attempts_accepted": 23,
+ "attempts_with_rule_failure": {
+  "W11": 1,
+  "W12": 56,
+  "W13": 11,
+  "W2": 8,
+  "W3": 22,
+  "W5": 51,
+  "W6": 28,
+  "W8": 77
+ },
+ "judge_calls": 34,
+ "judge_verdicts": {
+  "PASS": 23,
+  "FAIL": 11
+ },
+ "judge_served_models": [
+  "claude-sonnet-5-5"
+ ],
+ "response_models": [
+  "steward-base"
+ ],
+ "cells": 32,
+ "cells_rewritten": 23,
+ "missing": [
+  "w01.principal.E",
+  "w01.teammate.E",
+  "w02.principal.E",
+  "w02.principal.K",
+  "w02.teammate.K",
+  "w03.principal.E",
+  "w05.principal.E",
+  "w05.principal.K",
+  "w06.principal.K"
+ ],
+ "attempts_per_cell": {
+  "w01.principal.E": 10,
+  "w01.principal.K": 2,
+  "w01.teammate.E": 10,
+  "w01.teammate.K": 3,
+  "w02.principal.E": 10,
+  "w02.principal.K": 10,
+  "w02.teammate.E": 1,
+  "w02.teammate.K": 10,
+  "w03.principal.E": 10,
+  "w03.principal.K": 4,
+  "w03.teammate.E": 6,
+  "w03.teammate.K": 5,
+  "w04.principal.E": 1,
+  "w04.principal.K": 4,
+  "w04.teammate.E": 1,
+  "w04.teammate.K": 2,
+  "w05.principal.E": 10,
+  "w05.principal.K": 10,
+  "w05.teammate.E": 3,
+  "w05.teammate.K": 1,
+  "w06.principal.E": 1,
+  "w06.principal.K": 10,
+  "w06.teammate.E": 1,
+  "w06.teammate.K": 1,
+  "w07.principal.E": 3,
+  "w07.principal.K": 1,
+  "w07.teammate.E": 2,
+  "w07.teammate.K": 3,
+  "w08.principal.E": 1,
+  "w08.principal.K": 8,
+  "w08.teammate.E": 2,
+  "w08.teammate.K": 9
+ },
+ "accepted_at_attempt": {
+  "1": 9,
+  "2": 4,
+  "3": 4,
+  "4": 2,
+  "5": 1,
+  "6": 1,
+  "8": 1,
+  "9": 1
+ },
+ "length_ratio": {
+  "min": 1.0,
+  "max": 1.894,
+  "mean": 1.491
+ },
+ "adds_priority_guidance": 18,
+ "kickoff_changed": 0
+}

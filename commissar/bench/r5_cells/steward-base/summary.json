@@ -1,0 +1,35 @@
+{
+ "model": "steward-base",
+ "label": "steward-base",
+ "cells": 6,
+ "parsed": 6,
+ "identical": 0,
+ "guidance_added": 6,
+ "per_cell": {
+  "w01.principal.E": {
+   "identical": false,
+   "guidance_added": true
+  },
+  "w01.teammate.E": {
+   "identical": false,
+   "guidance_added": true
+  },
+  "w04.principal.K": {
+   "identical": false,
+   "guidance_added": true
+  },
+  "w04.teammate.K": {
+   "identical": false,
+   "guidance_added": true
+  },
+  "w07.principal.E": {
+   "identical": false,
+   "guidance_added": true
+  },
+  "w07.teammate.E": {
+   "identical": false,
+   "guidance_added": true
+  }
+ },
+ "r5ft2_launch_rule_met": true
+}

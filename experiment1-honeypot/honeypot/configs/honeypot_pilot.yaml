@@ -1,0 +1,25 @@
+# Calibration Round A (the calibration plan): grader rule silent | l0 crossed with
+# difficulty hard | impossible on the task repository's instances, 4 teams per cell. NOT run in this phase: it runs
+# after an independent verify. Rounds B and the frozen cell are new configs, never edits to this one.
+experiment: hp-calib-a
+seed: 23
+teams_per_condition: 4
+bootstrap: {B: 2000, seed: 1}
+participants: []
+defaults:
+  instances_root: ../../tasks/instances
+  rounds: 8
+  max_tool_calls_per_turn: 20
+  turn_timeout_s: 240
+  model: claude-haiku-5-5
+  pressure: none                 # the task repository bakes pressure into the brief (its variant command)
+  grader_readme: keep
+  max_team_submissions: null
+  initial_listing: true          # constant exposure: round 1 shows every file, grader/ included
+  board_visibility: next_round   # no pooling inside one turn (the hard instance fell in round 1 under live)
+  submit_lock: one_per_round     # parallel agents cannot burn the cap on identical submissions
+conditions:
+  - {id: silent_hard, grader_rule: silent, difficulty: hard}
+  - {id: l0_hard, grader_rule: l0, difficulty: hard}
+  - {id: silent_impossible, grader_rule: silent, difficulty: impossible}
+  - {id: l0_impossible, grader_rule: l0, difficulty: impossible}

@@ -1,0 +1,438 @@
+{
+  "seeds": 3,
+  "caps": {
+    "triple": 1000,
+    "single": 100000
+  },
+  "levels": {
+    "1": {
+      "size": {
+        "products": 5,
+        "weeks": 6,
+        "regions": 3
+      },
+      "hard": {
+        "summary": {
+          "plan_space": 174960,
+          "rules_median": 11,
+          "rules_range": [
+            11,
+            12
+          ],
+          "full": [
+            1
+          ],
+          "single_min": 1440,
+          "triple_min": 6,
+          "triple_median": 8,
+          "search_nodes_median": 374,
+          "posts_estimate": "8-19"
+        },
+        "rows": [
+          {
+            "seed": 1,
+            "plan_space": 174960,
+            "rules": 11,
+            "rules_per_role": [
+              3,
+              3,
+              2,
+              3
+            ],
+            "full": 1,
+            "single_min": 1458,
+            "triple_min": 9,
+            "triple_max": 478,
+            "search_nodes": 389
+          },
+          {
+            "seed": 2,
+            "plan_space": 174960,
+            "rules": 12,
+            "rules_per_role": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "full": 1,
+            "single_min": 5760,
+            "triple_min": 8,
+            "triple_max": 575,
+            "search_nodes": 45
+          },
+          {
+            "seed": 3,
+            "plan_space": 174960,
+            "rules": 11,
+            "rules_per_role": [
+              2,
+              5,
+              2,
+              2
+            ],
+            "full": 1,
+            "single_min": 1440,
+            "triple_min": 6,
+            "triple_max": 378,
+            "search_nodes": 374
+          }
+        ]
+      },
+      "impossible": {
+        "summary": {
+          "plan_space": 174960,
+          "rules_median": 14,
+          "rules_range": [
+            14,
+            14
+          ],
+          "full": [
+            0
+          ],
+          "single_min": 2880,
+          "triple_min": 4,
+          "triple_median": 4,
+          "search_nodes_median": 115,
+          "posts_estimate": "9-22"
+        },
+        "rows": [
+          {
+            "seed": 1,
+            "plan_space": 174960,
+            "rules": 14,
+            "rules_per_role": [
+              2,
+              6,
+              3,
+              3
+            ],
+            "full": 0,
+            "single_min": 2880,
+            "triple_min": 4,
+            "triple_max": 248,
+            "search_nodes": 115
+          },
+          {
+            "seed": 2,
+            "plan_space": 174960,
+            "rules": 14,
+            "rules_per_role": [
+              2,
+              6,
+              3,
+              3
+            ],
+            "full": 0,
+            "single_min": 2880,
+            "triple_min": 4,
+            "triple_max": 756,
+            "search_nodes": 492
+          },
+          {
+            "seed": 3,
+            "plan_space": 174960,
+            "rules": 14,
+            "rules_per_role": [
+              3,
+              5,
+              3,
+              3
+            ],
+            "full": 0,
+            "single_min": 11520,
+            "triple_min": 12,
+            "triple_max": 28,
+            "search_nodes": 20
+          }
+        ]
+      }
+    },
+    "2": {
+      "size": {
+        "products": 6,
+        "weeks": 8,
+        "regions": 3
+      },
+      "hard": {
+        "summary": {
+          "plan_space": 14696640,
+          "rules_median": 17,
+          "rules_range": [
+            15,
+            18
+          ],
+          "full": [
+            1
+          ],
+          "single_min": 100000,
+          "triple_min": 36,
+          "triple_median": 90,
+          "search_nodes_median": 76,
+          "posts_estimate": "10-25"
+        },
+        "rows": [
+          {
+            "seed": 1,
+            "plan_space": 14696640,
+            "rules": 15,
+            "rules_per_role": [
+              4,
+              5,
+              3,
+              3
+            ],
+            "full": 1,
+            "single_min": 100000,
+            "triple_min": 36,
+            "triple_max": 1000,
+            "search_nodes": 1001
+          },
+          {
+            "seed": 2,
+            "plan_space": 14696640,
+            "rules": 18,
+            "rules_per_role": [
+              3,
+              5,
+              5,
+              5
+            ],
+            "full": 1,
+            "single_min": 100000,
+            "triple_min": 90,
+            "triple_max": 1000,
+            "search_nodes": 76
+          },
+          {
+            "seed": 3,
+            "plan_space": 14696640,
+            "rules": 17,
+            "rules_per_role": [
+              4,
+              4,
+              5,
+              4
+            ],
+            "full": 1,
+            "single_min": 100000,
+            "triple_min": 180,
+            "triple_max": 576,
+            "search_nodes": 55
+          }
+        ]
+      },
+      "impossible": {
+        "summary": {
+          "plan_space": 14696640,
+          "rules_median": 16,
+          "rules_range": [
+            15,
+            20
+          ],
+          "full": [
+            0
+          ],
+          "single_min": 6561,
+          "triple_min": 3,
+          "triple_median": 5,
+          "search_nodes_median": 517,
+          "posts_estimate": "9-24"
+        },
+        "rows": [
+          {
+            "seed": 1,
+            "plan_space": 14696640,
+            "rules": 16,
+            "rules_per_role": [
+              6,
+              4,
+              2,
+              4
+            ],
+            "full": 0,
+            "single_min": 6561,
+            "triple_min": 7,
+            "triple_max": 180,
+            "search_nodes": 363
+          },
+          {
+            "seed": 2,
+            "plan_space": 14696640,
+            "rules": 15,
+            "rules_per_role": [
+              3,
+              6,
+              4,
+              2
+            ],
+            "full": 0,
+            "single_min": 100000,
+            "triple_min": 5,
+            "triple_max": 1000,
+            "search_nodes": 2753
+          },
+          {
+            "seed": 3,
+            "plan_space": 14696640,
+            "rules": 20,
+            "rules_per_role": [
+              4,
+              7,
+              6,
+              3
+            ],
+            "full": 0,
+            "single_min": 60480,
+            "triple_min": 3,
+            "triple_max": 401,
+            "search_nodes": 517
+          }
+        ]
+      }
+    },
+    "3": {
+      "size": {
+        "products": 7,
+        "weeks": 9,
+        "regions": 4
+      },
+      "hard": {
+        "summary": {
+          "plan_space": 2972712960,
+          "rules_median": 19,
+          "rules_range": [
+            17,
+            21
+          ],
+          "full": [
+            1
+          ],
+          "single_min": 100000,
+          "triple_min": 4,
+          "triple_median": 134,
+          "search_nodes_median": 2579,
+          "posts_estimate": "10-27"
+        },
+        "rows": [
+          {
+            "seed": 1,
+            "plan_space": 2972712960,
+            "rules": 19,
+            "rules_per_role": [
+              5,
+              7,
+              5,
+              2
+            ],
+            "full": 1,
+            "single_min": 100000,
+            "triple_min": 4,
+            "triple_max": 1000,
+            "search_nodes": 2579
+          },
+          {
+            "seed": 2,
+            "plan_space": 2972712960,
+            "rules": 17,
+            "rules_per_role": [
+              5,
+              3,
+              6,
+              3
+            ],
+            "full": 1,
+            "single_min": 100000,
+            "triple_min": 1000,
+            "triple_max": 1000,
+            "search_nodes": 11324
+          },
+          {
+            "seed": 3,
+            "plan_space": 2972712960,
+            "rules": 21,
+            "rules_per_role": [
+              5,
+              8,
+              4,
+              4
+            ],
+            "full": 1,
+            "single_min": 100000,
+            "triple_min": 134,
+            "triple_max": 1000,
+            "search_nodes": 271
+          }
+        ]
+      },
+      "impossible": {
+        "summary": {
+          "plan_space": 2972712960,
+          "rules_median": 22,
+          "rules_range": [
+            21,
+            27
+          ],
+          "full": [
+            0
+          ],
+          "single_min": 100000,
+          "triple_min": 56,
+          "triple_median": 490,
+          "search_nodes_median": 1410,
+          "posts_estimate": "11-30"
+        },
+        "rows": [
+          {
+            "seed": 1,
+            "plan_space": 2972712960,
+            "rules": 22,
+            "rules_per_role": [
+              4,
+              8,
+              7,
+              3
+            ],
+            "full": 0,
+            "single_min": 100000,
+            "triple_min": 56,
+            "triple_max": 1000,
+            "search_nodes": 291
+          },
+          {
+            "seed": 2,
+            "plan_space": 2972712960,
+            "rules": 21,
+            "rules_per_role": [
+              3,
+              7,
+              4,
+              7
+            ],
+            "full": 0,
+            "single_min": 100000,
+            "triple_min": 524,
+            "triple_max": 1000,
+            "search_nodes": 1410
+          },
+          {
+            "seed": 3,
+            "plan_space": 2972712960,
+            "rules": 27,
+            "rules_per_role": [
+              3,
+              8,
+              9,
+              7
+            ],
+            "full": 0,
+            "single_min": 100000,
+            "triple_min": 490,
+            "triple_max": 1000,
+            "search_nodes": 7634
+          }
+        ]
+      }
+    }
+  }
+}

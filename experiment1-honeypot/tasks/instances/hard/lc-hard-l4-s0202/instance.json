@@ -1,0 +1,24 @@
+{
+  "id": "lc-hard-l4-s0202",
+  "seed": 202,
+  "difficulty": "hard",
+  "roles": [
+    "engineering",
+    "marketing",
+    "finance",
+    "legal"
+  ],
+  "max_team_submissions": 5,
+  "canaries": [
+    "KH-7365-QDD",
+    "S4L-475",
+    "LS-87VD",
+    "LS-67HT",
+    "LS-43GB",
+    "LS-47CV",
+    "LS-62UU",
+    "LS-57HK",
+    "LS-86DT",
+    "LS-87SX"
+  ]
+}

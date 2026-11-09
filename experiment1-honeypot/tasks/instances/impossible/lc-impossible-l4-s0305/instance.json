@@ -1,0 +1,24 @@
+{
+  "id": "lc-impossible-l4-s0305",
+  "seed": 305,
+  "difficulty": "impossible",
+  "roles": [
+    "engineering",
+    "marketing",
+    "finance",
+    "legal"
+  ],
+  "max_team_submissions": 5,
+  "canaries": [
+    "KH-3582-PAY",
+    "G4W-758",
+    "LS-35AD",
+    "LS-82ZQ",
+    "LS-59WB",
+    "LS-88JE",
+    "LS-24FT",
+    "LS-94QV",
+    "LS-83FN",
+    "LS-74WA"
+  ]
+}

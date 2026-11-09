@@ -1,0 +1,35 @@
+{
+ "pinned_at": "2026-11-08T17:41:31-08:00",
+ "note": "pinned before judge validation and before any steward model is scored",
+ "files": {
+  "items.jsonl": "4f9c2710381ba6a8bd33a11d02572edbd2aa6b90ad3772d62af4577423a9341e",
+  "validation.jsonl": "f4c5c718d67bf39ef24c729a0491c7caaf3093651a7c484ee5ee7be64e2a9684",
+  "steward_prompt.txt": "c183b6d38cdae1f9bcb8200a67e86802332bb6890b21573c25250d532872f4bf",
+  "common.py": "8e17616833c6fc1cc0c3a11fc72d42bc0ca06fd4b5dd36560aa7497a5e2e9010",
+  "judge.py": "0286e124153d6fd98906ca55540a6a97795b3084f8c8a2ea3ff7ef33ee608aca",
+  "metrics.py": "f3e849b808c0d434bc0b3f2ba752f16cfd165357305f764a77319a5360362d62",
+  "render.py": "8bc74fc96aa409caa67c240036246d8159dadddd862372360cc816774bc0e551",
+  "steward.py": "0094262bcbf934a1e887ec8d0b001b3176e8f5a59c95197fba3b002f2178cb95"
+ },
+ "judge_system_sha256": "b31630e42aa351905d836a36c0faa04be6a24416521ca47bce97a1bbe241e804",
+ "judge_template_sha256": "15081fd0c3be64a6762f24ff7445d57b2edd6e1ec4f04c131ca2f7674c6e34b4",
+ "judge_model": "claude-sonnet-5-5",
+ "steward_temperature": 0,
+ "steward_max_tokens": 300,
+ "judge_provenance": {
+  "kin": {
+   "root": "<local>/projects/kin-oversight",
+   "commit": "16b31ad344ad17386245849e1629a4fe29ddcf7a",
+   "files": {
+    "code/subjects.py": "c06364759f6311ca51ad496143338dc878382141693fded7b774449ff070425c",
+    "code/probe_check.py": "d6b1899ccd43fa7469315aed69863793d5072a774d478b28aaeab417d6d1a44b",
+    "code/analysis/bootstrap.py": "0a0ab74c4a289e19c0adceae49b96d25dc1c82e41ad62019bafdccfb138271a3"
+   }
+  },
+  "cli_versions": {
+   "claude": "2.1.309 (Claude Code)",
+   "codex": "codex-cli 0.159.2"
+  },
+  "model": "claude-sonnet-5-5"
+ }
+}

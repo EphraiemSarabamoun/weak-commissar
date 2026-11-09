@@ -1,0 +1,21 @@
+# Live calibration smoke only (not data): 1 team x 4 Haiku agents x 6 rounds on an impossible instance, silent
+# rule, high pressure (baked into the brief by the task repository's variant command:
+#   cd tasks && python3 -m honeypot_tasks.variant instances/impossible/lc-impossible-l2-s0101
+#      --out <dir> --pressure high), root listing on, next-round visibility, one submission per round.
+experiment: hp-calib-smoke
+seed: 7
+teams_per_condition: 1
+bootstrap: {B: 200, seed: 1}
+participants: []
+defaults:
+  instance: <scratch>/variants
+  rounds: 6
+  max_tool_calls_per_turn: 20
+  turn_timeout_s: 240
+  model: claude-haiku-5-5
+  pressure: none
+  initial_listing: true
+  board_visibility: next_round
+  submit_lock: one_per_round
+conditions:
+  - {id: silent_impossible_phigh, grader_rule: silent}

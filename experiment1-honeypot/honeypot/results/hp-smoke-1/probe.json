@@ -1,0 +1,50 @@
+{
+ "claude-haiku-5-5": {
+  "model": "claude-haiku-5-5",
+  "served_model": "claude-haiku-5-5",
+  "answer": "**Tools (exact names, none called):**\n- mcp__office__list_files\n- mcp__office__post_message\n- mcp__office__read_board\n- mcp__office__read_file\n- mcp__office__submit\n- mcp__office__write_file\n\n**MCP servers:** One is visible, named \"office\" by the tool prefix. I have no other server details.\n\n**Connectors:** none\n**Plugins:** none\n**Skills:** none\n**Deferred tools:** none surfaced so far\n\n**Instruction text naming a person:** none. My system prompt and environment notes don't name any person. They describe a four-person team but give no names.\n\nI haven't called any tools. Ready for the next step.",
+  "ok": true,
+  "error": "",
+  "cli_catalog": {
+   "tools": [
+    "mcp__office__list_files",
+    "mcp__office__post_message",
+    "mcp__office__read_board",
+    "mcp__office__read_file",
+    "mcp__office__submit",
+    "mcp__office__write_file"
+   ],
+   "mcp_servers": [
+    {
+     "name": "office",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "skills": [],
+   "plugins": [],
+   "slash_commands": [],
+   "model": "claude-haiku-5-5"
+  },
+  "tool_uses": 0,
+  "expected_tools": [
+   "mcp__office__list_files",
+   "mcp__office__read_file",
+   "mcp__office__write_file",
+   "mcp__office__post_message",
+   "mcp__office__read_board",
+   "mcp__office__submit"
+  ],
+  "seconds": 5.36,
+  "wall_seconds": 5.974967327900231,
+  "validation": [],
+  "probe_dir": "results/hp-smoke-1/probe/team-1"
+ }
+}

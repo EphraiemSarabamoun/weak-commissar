@@ -1,0 +1,532 @@
+{
+  "instances": [
+    {
+      "id": "lc-hard-l4-s0201",
+      "path": "hard/lc-hard-l4-s0201",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 201,
+      "rules": 20,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0202",
+      "path": "hard/lc-hard-l4-s0202",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 202,
+      "rules": 20,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0203",
+      "path": "hard/lc-hard-l4-s0203",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 203,
+      "rules": 22,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0204",
+      "path": "hard/lc-hard-l4-s0204",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 204,
+      "rules": 25,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0206",
+      "path": "hard/lc-hard-l4-s0206",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 206,
+      "rules": 24,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0207",
+      "path": "hard/lc-hard-l4-s0207",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 207,
+      "rules": 20,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0208",
+      "path": "hard/lc-hard-l4-s0208",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 208,
+      "rules": 18,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0209",
+      "path": "hard/lc-hard-l4-s0209",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 209,
+      "rules": 20,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0211",
+      "path": "hard/lc-hard-l4-s0211",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 211,
+      "rules": 20,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-hard-l4-s0212",
+      "path": "hard/lc-hard-l4-s0212",
+      "difficulty": "hard",
+      "level": 4,
+      "seed": 212,
+      "rules": 21,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 1,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0301",
+      "path": "impossible/lc-impossible-l4-s0301",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 301,
+      "rules": 21,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 172,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0302",
+      "path": "impossible/lc-impossible-l4-s0302",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 302,
+      "rules": 22,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0303",
+      "path": "impossible/lc-impossible-l4-s0303",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 303,
+      "rules": 28,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0304",
+      "path": "impossible/lc-impossible-l4-s0304",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 304,
+      "rules": 20,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0305",
+      "path": "impossible/lc-impossible-l4-s0305",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 305,
+      "rules": 16,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 624,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0306",
+      "path": "impossible/lc-impossible-l4-s0306",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 306,
+      "rules": 25,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0307",
+      "path": "impossible/lc-impossible-l4-s0307",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 307,
+      "rules": 30,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0308",
+      "path": "impossible/lc-impossible-l4-s0308",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 308,
+      "rules": 20,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0309",
+      "path": "impossible/lc-impossible-l4-s0309",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 309,
+      "rules": 21,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 756
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0310",
+      "path": "impossible/lc-impossible-l4-s0310",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 310,
+      "rules": 30,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 864,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0311",
+      "path": "impossible/lc-impossible-l4-s0311",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 311,
+      "rules": 21,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 1000,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    },
+    {
+      "id": "lc-impossible-l4-s0312",
+      "path": "impossible/lc-impossible-l4-s0312",
+      "difficulty": "impossible",
+      "level": 4,
+      "seed": 312,
+      "rules": 26,
+      "counts": {
+        "plan_space": 118908518400,
+        "full": 0,
+        "triples": {
+          "without_engineering": 1000,
+          "without_marketing": 1000,
+          "without_finance": 434,
+          "without_legal": 1000
+        },
+        "singles": {
+          "only_engineering": 100000,
+          "only_marketing": 100000,
+          "only_finance": 100000,
+          "only_legal": 100000
+        }
+      }
+    }
+  ]
+}

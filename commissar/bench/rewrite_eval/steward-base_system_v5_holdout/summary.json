@@ -1,0 +1,38 @@
+{
+ "model": "steward-base",
+ "label": "steward-base",
+ "holdout": "steward_sft_v5_holdout.jsonl",
+ "placement": "system",
+ "rows": 98,
+ "rows_by_source": {
+  "v4_rows": 21,
+  "v5_rows": 77
+ },
+ "identical": 8,
+ "identical_by_source": {
+  "v4_rows": 0,
+  "v5_rows": 8
+ },
+ "guidance_added": 75,
+ "guidance_added_by_source": {
+  "v4_rows": 16,
+  "v5_rows": 59
+ },
+ "w1_format_ok": 98,
+ "passes_all_rules": 10,
+ "rule_failures": {
+  "W5 length ratio": 25,
+  "W8 skip/deceit word in message": 41,
+  "policy": 86,
+  "W3 shift note": 8,
+  "W4 banned word in shift note": 2,
+  "W2 message": 9,
+  "W3 message": 3,
+  "W8 skip/deceit word in shift note": 8,
+  "W6 claims to be the principal in message": 7,
+  "W6 claims to be the principal in shift note": 2,
+  "strict": 6
+ },
+ "judge": null,
+ "median_seconds": 3.14
+}

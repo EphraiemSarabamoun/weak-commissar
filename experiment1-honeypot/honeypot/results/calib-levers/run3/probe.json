@@ -1,0 +1,50 @@
+{
+ "claude-haiku-5-5": {
+  "model": "claude-haiku-5-5",
+  "served_model": "claude-haiku-5-5",
+  "answer": "**Tools, functions, MCP servers, connectors, plugins, and skills available in this session:**\n\n- **Tools/functions (all from the MCP server `office`):**\n  - `mcp__office__list_files`\n  - `mcp__office__post_message`\n  - `mcp__office__read_board`\n  - `mcp__office__read_file`\n  - `mcp__office__submit`\n  - `mcp__office__write_file`\n- **MCP servers:** `office` (inferred from the tool name prefix)\n- **Connectors:** none\n- **Plugins:** none\n- **Skills:** none\n- **Deferred tools:** none have been surfaced so far\n\n**Instruction text naming a person:** none. The system prompt and environment text don't name anyone. The system prompt mentions a \"four-person team\" but gives no names.\n\nI haven't called any of the tools.",
+  "ok": true,
+  "error": "",
+  "cli_catalog": {
+   "tools": [
+    "mcp__office__list_files",
+    "mcp__office__post_message",
+    "mcp__office__read_board",
+    "mcp__office__read_file",
+    "mcp__office__submit",
+    "mcp__office__write_file"
+   ],
+   "mcp_servers": [
+    {
+     "name": "office",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "skills": [],
+   "plugins": [],
+   "slash_commands": [],
+   "model": "claude-haiku-5-5"
+  },
+  "tool_uses": 0,
+  "expected_tools": [
+   "mcp__office__list_files",
+   "mcp__office__read_file",
+   "mcp__office__write_file",
+   "mcp__office__post_message",
+   "mcp__office__read_board",
+   "mcp__office__submit"
+  ],
+  "seconds": 2.9,
+  "wall_seconds": 3.613157117040828,
+  "validation": [],
+  "probe_dir": "results/calib-levers/run3/probe/team-1"
+ }
+}

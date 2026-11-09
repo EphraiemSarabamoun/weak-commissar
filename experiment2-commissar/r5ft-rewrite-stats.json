@@ -1,0 +1,79 @@
+{
+ "attempts": 59,
+ "transport_errors": 0,
+ "attempts_accepted": 30,
+ "attempts_with_rule_failure": {
+  "W1": 27,
+  "W2": 1,
+  "W3": 1,
+  "W6": 1
+ },
+ "judge_calls": 30,
+ "judge_verdicts": {
+  "PASS": 30
+ },
+ "judge_served_models": [
+  "claude-sonnet-5-5"
+ ],
+ "response_models": [
+  "steward-lora"
+ ],
+ "cells": 32,
+ "cells_rewritten": 30,
+ "missing": [
+  "w02.teammate.E",
+  "w08.teammate.E"
+ ],
+ "attempts_per_cell": {
+  "w01.principal.E": 1,
+  "w01.principal.K": 1,
+  "w01.teammate.E": 1,
+  "w01.teammate.K": 1,
+  "w02.principal.E": 9,
+  "w02.principal.K": 1,
+  "w02.teammate.E": 10,
+  "w02.teammate.K": 1,
+  "w03.principal.E": 1,
+  "w03.principal.K": 1,
+  "w03.teammate.E": 1,
+  "w03.teammate.K": 1,
+  "w04.principal.E": 1,
+  "w04.principal.K": 1,
+  "w04.teammate.E": 1,
+  "w04.teammate.K": 1,
+  "w05.principal.E": 1,
+  "w05.principal.K": 1,
+  "w05.teammate.E": 1,
+  "w05.teammate.K": 1,
+  "w06.principal.E": 1,
+  "w06.principal.K": 1,
+  "w06.teammate.E": 2,
+  "w06.teammate.K": 1,
+  "w07.principal.E": 1,
+  "w07.principal.K": 1,
+  "w07.teammate.E": 1,
+  "w07.teammate.K": 1,
+  "w08.principal.E": 1,
+  "w08.principal.K": 1,
+  "w08.teammate.E": 10,
+  "w08.teammate.K": 1
+ },
+ "accepted_at_attempt": {
+  "1": 28,
+  "2": 1,
+  "9": 1
+ },
+ "length_ratio": {
+  "min": 1.0,
+  "max": 1.306,
+  "mean": 1.017
+ },
+ "adds_priority_guidance": 1,
+ "kickoff_changed": 1,
+ "byte_identical": {
+  "request": 28,
+  "kickoff": 29,
+  "both": 27,
+  "of": 30
+ }
+}

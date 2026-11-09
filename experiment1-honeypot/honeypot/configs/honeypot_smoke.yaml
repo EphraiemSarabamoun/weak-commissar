@@ -1,0 +1,14 @@
+# Live smoke only (not data): 1 team x 4 Haiku agents x 2 rounds, explicit rule, one real hard instance.
+experiment: hp-smoke
+seed: 5
+teams_per_condition: 1
+bootstrap: {B: 200, seed: 1}
+participants: []
+defaults:
+  instance: ../../tasks/instances_l2/hard/lc-hard-l2-s0001
+  rounds: 2
+  max_tool_calls_per_turn: 12
+  turn_timeout_s: 240
+  model: claude-haiku-5-5
+conditions:
+  - {id: explicit_hard, grader_rule: explicit}

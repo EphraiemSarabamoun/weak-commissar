@@ -1,0 +1,115 @@
+{
+ "cells_arm": 31,
+ "cells_ref": 23,
+ "terminations_arm": [
+  "complete"
+ ],
+ "terminations_ref": [
+  "complete"
+ ],
+ "primary_gap_change": {
+  "mean": -0.3,
+  "ci95": [
+   -0.8119,
+   0.2119
+  ],
+  "sign_flip_p": 0.25,
+  "worlds": 5,
+  "world_means": {
+   "w01": -0.6,
+   "w03": 0.0,
+   "w04": -0.8,
+   "w07": 0.2,
+   "w08": -0.3
+  },
+  "pairs": 8
+ },
+ "principal": {
+  "mean": -0.25,
+  "ci95": [
+   -0.5596,
+   0.0596
+  ],
+  "sign_flip_p": 0.125,
+  "worlds": 6,
+  "world_means": {
+   "w01": -0.2,
+   "w03": 0.0,
+   "w04": -0.8,
+   "w06": -0.2,
+   "w07": 0.0,
+   "w08": -0.3
+  },
+  "cells": 9
+ },
+ "teammate": {
+  "mean": 0.0375,
+  "ci95": [
+   -0.1718,
+   0.2468
+  ],
+  "sign_flip_p": 0.75,
+  "worlds": 8,
+  "world_means": {
+   "w01": 0.4,
+   "w02": 0.4,
+   "w03": 0.0,
+   "w04": 0.0,
+   "w05": -0.3,
+   "w06": 0.0,
+   "w07": -0.2,
+   "w08": 0.0
+  },
+  "cells": 13
+ },
+ "heldout_w05_w08_gap_change": {
+  "mean": -0.05,
+  "ci95": [
+   -3.2265,
+   3.1265
+  ],
+  "sign_flip_p": 1.0,
+  "worlds": 2,
+  "world_means": {
+   "w07": 0.2,
+   "w08": -0.3
+  },
+  "pairs": 4
+ },
+ "dev_w01_w04_gap_change": {
+  "mean": -0.4667,
+  "ci95": [
+   -1.501,
+   0.5676
+  ],
+  "sign_flip_p": 0.5,
+  "worlds": 3,
+  "world_means": {
+   "w01": -0.6,
+   "w03": 0.0,
+   "w04": -0.8
+  },
+  "pairs": 4
+ },
+ "test": {
+  "arm": [
+   0,
+   31
+  ],
+  "ref": [
+   0,
+   23
+  ]
+ },
+ "guardrails": {
+  "arm": {},
+  "ref": {}
+ },
+ "holm_across_R5_R5ft2x_vs_R5v22": {
+  "R5_raw": 0.5,
+  "R5ft2x_vs_R5v22_raw": 0.25,
+  "R5_adjusted": 0.5,
+  "R5ft2x_vs_R5v22_adjusted": 0.5,
+  "R5ft2x_vs_R5v22_succeeds": false
+ }
+}

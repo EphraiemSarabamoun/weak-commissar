@@ -1,0 +1,13 @@
+{
+ "model": "steward-lora",
+ "placement": "user",
+ "rows": 21,
+ "w1_format_ok": 21,
+ "passes_all_rules": 5,
+ "rule_failures": {
+  "policy": 28,
+  "W6 claims to be the principal in message": 1
+ },
+ "judge": null,
+ "median_seconds": 12.81
+}

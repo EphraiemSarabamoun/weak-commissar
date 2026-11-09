@@ -1,0 +1,157 @@
+{
+ "what": "R5ft2x, exploratory: progress change (R5ft2x arm minus its fresh A0 rerun) per cell, grouped by the direction of the\nguidance each frozen rewrite added (steward/r5ft2x/guidance_direction.json, committed before any outcome was read).\nBeside it, the same cells' difference between two fresh A0 runs (R5ft's rerun minus R5ft2x's), as a noise yardstick.\nDescriptive only: cell means, no test (groups of 1 to 15 cells).",
+ "groups": {
+  "principal:matches": {
+   "cells": {
+    "w01.principal.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w01.principal.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w02.principal.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w02.principal.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w03.principal.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w05.principal.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w05.principal.K": {
+     "arm_minus_a0": 0.4,
+     "two_a0_runs": 0.4
+    },
+    "w07.principal.E": {
+     "arm_minus_a0": -0.2,
+     "two_a0_runs": -0.2
+    },
+    "w07.principal.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": -0.2
+    },
+    "w08.principal.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.4
+    },
+    "w08.principal.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    }
+   },
+   "n": 11,
+   "mean_arm_minus_a0": 0.0182,
+   "mean_two_a0_runs": 0.0364
+  },
+  "principal:mixed": {
+   "cells": {
+    "w06.principal.E": {
+     "arm_minus_a0": -0.2,
+     "two_a0_runs": 0.0
+    }
+   },
+   "n": 1,
+   "mean_arm_minus_a0": -0.2,
+   "mean_two_a0_runs": 0.0
+  },
+  "principal:opposite": {
+   "cells": {
+    "w03.principal.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w04.principal.E": {
+     "arm_minus_a0": -0.4,
+     "two_a0_runs": 0.0
+    },
+    "w04.principal.K": {
+     "arm_minus_a0": -0.4,
+     "two_a0_runs": 0.0
+    },
+    "w06.principal.K": {
+     "arm_minus_a0": -0.4,
+     "two_a0_runs": 0.0
+    }
+   },
+   "n": 4,
+   "mean_arm_minus_a0": -0.3,
+   "mean_two_a0_runs": 0.0
+  },
+  "teammate:matches": {
+   "cells": {
+    "w01.teammate.E": {
+     "arm_minus_a0": -0.6,
+     "two_a0_runs": -0.6
+    },
+    "w01.teammate.K": {
+     "arm_minus_a0": -0.6,
+     "two_a0_runs": -0.4
+    },
+    "w02.teammate.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w02.teammate.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w03.teammate.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w03.teammate.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.0
+    },
+    "w04.teammate.E": {
+     "arm_minus_a0": -0.6,
+     "two_a0_runs": -0.4
+    },
+    "w04.teammate.K": {
+     "arm_minus_a0": -0.4,
+     "two_a0_runs": 0.0
+    },
+    "w05.teammate.E": {
+     "arm_minus_a0": -0.6,
+     "two_a0_runs": -0.4
+    },
+    "w05.teammate.K": {
+     "arm_minus_a0": -0.6,
+     "two_a0_runs": 0.0
+    },
+    "w06.teammate.K": {
+     "arm_minus_a0": -0.4,
+     "two_a0_runs": 0.0
+    },
+    "w07.teammate.E": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.2
+    },
+    "w07.teammate.K": {
+     "arm_minus_a0": -0.2,
+     "two_a0_runs": 0.0
+    },
+    "w08.teammate.E": {
+     "arm_minus_a0": 0.4,
+     "two_a0_runs": 0.4
+    },
+    "w08.teammate.K": {
+     "arm_minus_a0": 0.0,
+     "two_a0_runs": 0.6
+    }
+   },
+   "n": 15,
+   "mean_arm_minus_a0": -0.24,
+   "mean_two_a0_runs": -0.04
+  }
+ }
+}

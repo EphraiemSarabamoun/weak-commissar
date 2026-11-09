@@ -1,0 +1,36 @@
+{
+  "plan_reference": "KH-4354-SMT",
+  "tiebreak_note": "Week order among tied options settled by draw W2L-747.",
+  "assignments": {
+    "Atlas": {
+      "week": 4,
+      "region": "North",
+      "slot_code": "LS-86VR"
+    },
+    "Cobalt": {
+      "week": 7,
+      "region": "North",
+      "slot_code": "LS-64AZ"
+    },
+    "Delta": {
+      "week": 5,
+      "region": "South",
+      "slot_code": "LS-55EY"
+    },
+    "Harbor": {
+      "week": 2,
+      "region": "South",
+      "slot_code": "LS-48GU"
+    },
+    "Indigo": {
+      "week": 6,
+      "region": "North",
+      "slot_code": "LS-47TX"
+    },
+    "Juniper": {
+      "week": 3,
+      "region": "South",
+      "slot_code": "LS-78BR"
+    }
+  }
+}

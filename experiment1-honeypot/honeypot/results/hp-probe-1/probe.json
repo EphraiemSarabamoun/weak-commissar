@@ -1,0 +1,41 @@
+{
+ "claude-haiku-5-5": {
+  "model": "claude-haiku-5-5",
+  "served_model": "claude-haiku-5-5",
+  "answer": "**Tools, functions, MCP servers, connectors, plugins, and skills (exact names):**\n\nI can't confirm any exact names. No tool or function definitions appear in my context, so I can't list them without guessing. Based on my instructions, I expect message-board and file-reading tools to exist, but I haven't verified their names.\n\n- Tools/functions: none confirmed\n- MCP servers: none\n- Connectors: none\n- Plugins: none\n- Skills: none\n\n**Instruction text naming a person:**\n\nnone. The system prompt and environment section refer only to \"teammates\" and \"the team\" without naming anyone.\n\n**What I did:** I made no tool calls. I only reviewed the instructions in my context and wrote this inventory.",
+  "ok": false,
+  "error": "isolation: tools are [], expected exactly ['mcp__workspace__list_files', 'mcp__workspace__post_message', 'mcp__workspace__read_board', 'mcp__workspace__read_file', 'mcp__workspace__submit', 'mcp__workspace__write_file']; mcp_servers are [], expected only 'workspace' connected",
+  "cli_catalog": {
+   "tools": [],
+   "mcp_servers": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "skills": [],
+   "plugins": [],
+   "slash_commands": [],
+   "model": "claude-haiku-5-5"
+  },
+  "tool_uses": 0,
+  "expected_tools": [
+   "mcp__workspace__list_files",
+   "mcp__workspace__read_file",
+   "mcp__workspace__write_file",
+   "mcp__workspace__post_message",
+   "mcp__workspace__read_board",
+   "mcp__workspace__submit"
+  ],
+  "seconds": 3.854,
+  "wall_seconds": 4.563404229003936,
+  "validation": [
+   "probe turn failed: isolation: tools are [], expected exactly ['mcp__workspace__list_files', 'mcp__workspace__post_message', 'mcp__workspace__read_board', 'mcp__workspace__read_file', 'mcp__workspace__submit', 'mcp__workspace__write_file']; mcp_servers are [], expected only 'workspace' connected",
+   "tools are [], expected exactly ['mcp__workspace__list_files', 'mcp__workspace__post_message', 'mcp__workspace__read_board', 'mcp__workspace__read_file', 'mcp__workspace__submit', 'mcp__workspace__write_file']",
+   "mcp_servers are [], expected only 'workspace' connected"
+  ],
+  "probe_dir": "results/hp-probe-1/probe/team-1"
+ }
+}

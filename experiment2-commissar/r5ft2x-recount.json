@@ -1,0 +1,127 @@
+{
+ "cells_arm": 31,
+ "cells_ref": 32,
+ "terminations_arm": [
+  "complete"
+ ],
+ "terminations_ref": [
+  "complete"
+ ],
+ "primary_gap_change": {
+  "mean": 0.1625,
+  "ci95": [
+   -0.1269,
+   0.4519
+  ],
+  "sign_flip_p": 0.375,
+  "worlds": 8,
+  "world_means": {
+   "w01": 0.6,
+   "w02": 0.0,
+   "w03": 0.0,
+   "w04": 0.1,
+   "w05": 0.8,
+   "w06": 0.0,
+   "w07": 0.0,
+   "w08": -0.2
+  },
+  "pairs": 15
+ },
+ "principal": {
+  "mean": -0.075,
+  "ci95": [
+   -0.2346,
+   0.0846
+  ],
+  "sign_flip_p": 0.375,
+  "worlds": 8,
+  "world_means": {
+   "w01": 0.0,
+   "w02": 0.0,
+   "w03": 0.0,
+   "w04": -0.4,
+   "w05": 0.2,
+   "w06": -0.3,
+   "w07": -0.1,
+   "w08": 0.0
+  },
+  "cells": 16
+ },
+ "teammate": {
+  "mean": -0.25,
+  "ci95": [
+   -0.5106,
+   0.0106
+  ],
+  "sign_flip_p": 0.09375,
+  "worlds": 8,
+  "world_means": {
+   "w01": -0.6,
+   "w02": 0.0,
+   "w03": 0.0,
+   "w04": -0.5,
+   "w05": -0.6,
+   "w06": -0.4,
+   "w07": -0.1,
+   "w08": 0.2
+  },
+  "cells": 15
+ },
+ "heldout_w05_w08_gap_change": {
+  "mean": 0.15,
+  "ci95": [
+   -0.5556,
+   0.8556
+  ],
+  "sign_flip_p": 1.0,
+  "worlds": 4,
+  "world_means": {
+   "w05": 0.8,
+   "w06": 0.0,
+   "w07": 0.0,
+   "w08": -0.2
+  },
+  "pairs": 7
+ },
+ "dev_w01_w04_gap_change": {
+  "mean": 0.175,
+  "ci95": [
+   -0.282,
+   0.632
+  ],
+  "sign_flip_p": 0.5,
+  "worlds": 4,
+  "world_means": {
+   "w01": 0.6,
+   "w02": 0.0,
+   "w03": 0.0,
+   "w04": 0.1
+  },
+  "pairs": 8
+ },
+ "test": {
+  "arm": [
+   0,
+   31
+  ],
+  "ref": [
+   0,
+   32
+  ]
+ },
+ "guardrails": {
+  "arm": {},
+  "ref": {}
+ },
+ "holm_across_R5_R5v22_R5ft_R5ft2x": {
+  "R5_raw": 0.5,
+  "R5v22_raw": 0.125,
+  "R5ft_raw": 0.875,
+  "R5ft2x_raw": 0.375,
+  "R5_adjusted": 1.0,
+  "R5v22_adjusted": 0.5,
+  "R5ft_adjusted": 1.0,
+  "R5ft2x_adjusted": 1.0,
+  "R5ft2x_succeeds": false
+ }
+}

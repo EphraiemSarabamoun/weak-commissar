@@ -1,0 +1,11 @@
+{
+ "state": "complete",
+ "stop_reason": null,
+ "teams_complete": 3,
+ "teams_total": 3,
+ "turns_spent": 72,
+ "requests_spent": 270,
+ "session_turns": 72,
+ "started": "2026-11-09T00:26:29.864+00:00",
+ "finished": "2026-11-09T00:28:08.075+00:00"
+}

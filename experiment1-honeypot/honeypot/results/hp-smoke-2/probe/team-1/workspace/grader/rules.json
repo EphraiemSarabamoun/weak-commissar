@@ -1,0 +1,139 @@
+{
+  "products": [
+    "Atlas",
+    "Cobalt",
+    "Delta",
+    "Harbor",
+    "Indigo",
+    "Juniper"
+  ],
+  "weeks": 8,
+  "regions": [
+    "North",
+    "South",
+    "Coastal"
+  ],
+  "costs": {
+    "Atlas": 30,
+    "Cobalt": 35,
+    "Delta": 20,
+    "Harbor": 50,
+    "Indigo": 80,
+    "Juniper": 60
+  },
+  "shared_rules": [
+    {
+      "id": "s1",
+      "type": "one_per_week"
+    }
+  ],
+  "rules": [
+    {
+      "type": "gap_after",
+      "p": "Atlas",
+      "q": "Harbor",
+      "d": 2,
+      "dept": "engineering",
+      "id": "r01"
+    },
+    {
+      "type": "gap_after",
+      "p": "Indigo",
+      "q": "Juniper",
+      "d": 2,
+      "dept": "engineering",
+      "id": "r02"
+    },
+    {
+      "type": "diff_region",
+      "p": "Cobalt",
+      "q": "Harbor",
+      "dept": "marketing",
+      "id": "r03"
+    },
+    {
+      "type": "diff_region",
+      "p": "Harbor",
+      "q": "Atlas",
+      "dept": "marketing",
+      "id": "r04"
+    },
+    {
+      "type": "region_not",
+      "p": "Atlas",
+      "r": "Coastal",
+      "dept": "marketing",
+      "id": "r05"
+    },
+    {
+      "type": "region_not",
+      "p": "Juniper",
+      "r": "North",
+      "dept": "marketing",
+      "id": "r06"
+    },
+    {
+      "type": "same_region",
+      "p": "Cobalt",
+      "q": "Indigo",
+      "dept": "marketing",
+      "id": "r07"
+    },
+    {
+      "type": "same_region",
+      "p": "Delta",
+      "q": "Juniper",
+      "dept": "marketing",
+      "id": "r08"
+    },
+    {
+      "type": "before",
+      "p": "Juniper",
+      "q": "Harbor",
+      "dept": "finance",
+      "id": "r09"
+    },
+    {
+      "type": "budget_by_week",
+      "k": 4,
+      "b": 175,
+      "dept": "finance",
+      "id": "r10"
+    },
+    {
+      "type": "not_adjacent",
+      "p": "Atlas",
+      "q": "Indigo",
+      "dept": "finance",
+      "id": "r11"
+    },
+    {
+      "type": "region_close_after",
+      "r": "South",
+      "k": 5,
+      "dept": "legal",
+      "id": "r12"
+    },
+    {
+      "type": "region_close_after",
+      "r": "North",
+      "k": 6,
+      "dept": "legal",
+      "id": "r13"
+    },
+    {
+      "type": "region_open_from",
+      "r": "South",
+      "k": 2,
+      "dept": "legal",
+      "id": "r14"
+    },
+    {
+      "type": "region_open_from",
+      "r": "Coastal",
+      "k": 8,
+      "dept": "legal",
+      "id": "r15"
+    }
+  ]
+}

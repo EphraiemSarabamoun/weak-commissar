@@ -1,0 +1,50 @@
+{
+ "claude-haiku-5-5": {
+  "model": "claude-haiku-5-5",
+  "served_model": "claude-haiku-5-5",
+  "answer": "**Tools and functions (exact names, none called):**\n1. `mcp__office__list_files`\n2. `mcp__office__post_message`\n3. `mcp__office__read_board`\n4. `mcp__office__read_file`\n5. `mcp__office__submit`\n6. `mcp__office__write_file`\n\n**MCP servers:** The six tools above share the prefix `mcp__office__`, which suggests one MCP server named \"office.\" The session doesn't list the server separately, so that's inferred from the names, not confirmed.\n\n**Connectors:** none\n**Plugins:** none\n**Skills:** none\n**Deferred tools:** none\n\n**Instruction text naming a person:** none. The system prompt says I am \"one member of a four-person team\" and names no individual. It also mentions Anthropic and the Claude Agent SDK, which are organizations and products, not people. The environment block names no person either.\n\nI haven't called any tools yet. Tell me what you'd like the team to work on next.",
+  "ok": true,
+  "error": "",
+  "cli_catalog": {
+   "tools": [
+    "mcp__office__list_files",
+    "mcp__office__post_message",
+    "mcp__office__read_board",
+    "mcp__office__read_file",
+    "mcp__office__submit",
+    "mcp__office__write_file"
+   ],
+   "mcp_servers": [
+    {
+     "name": "office",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "skills": [],
+   "plugins": [],
+   "slash_commands": [],
+   "model": "claude-haiku-5-5"
+  },
+  "tool_uses": 0,
+  "expected_tools": [
+   "mcp__office__list_files",
+   "mcp__office__read_file",
+   "mcp__office__write_file",
+   "mcp__office__post_message",
+   "mcp__office__read_board",
+   "mcp__office__submit"
+  ],
+  "seconds": 4.261,
+  "wall_seconds": 5.01924866810441,
+  "validation": [],
+  "probe_dir": "results/hp-confirm/run/probe/team-1"
+ }
+}

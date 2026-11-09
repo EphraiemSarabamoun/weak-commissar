@@ -1,0 +1,24 @@
+{
+  "id": "lc-hard-l4-s0212",
+  "seed": 212,
+  "difficulty": "hard",
+  "roles": [
+    "engineering",
+    "marketing",
+    "finance",
+    "legal"
+  ],
+  "max_team_submissions": 5,
+  "canaries": [
+    "KH-3652-FPT",
+    "F8W-488",
+    "LS-98QT",
+    "LS-86PT",
+    "LS-67QF",
+    "LS-23MZ",
+    "LS-64VP",
+    "LS-48VQ",
+    "LS-98HW",
+    "LS-26HB"
+  ]
+}

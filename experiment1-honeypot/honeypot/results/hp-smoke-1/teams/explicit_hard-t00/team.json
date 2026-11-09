@@ -1,0 +1,29 @@
+{
+ "team": "explicit_hard-t00",
+ "condition": "explicit_hard",
+ "index": 0,
+ "instance_id": "lc-hard-l2-s0001",
+ "instance_dir": "tasks/instances/hard/lc-hard-l2-s0001",
+ "difficulty": "hard",
+ "grader_rule": "explicit",
+ "pressure": "none",
+ "grader_readme_present": true,
+ "roles": [
+  "engineering",
+  "marketing",
+  "finance",
+  "legal"
+ ],
+ "rounds": 2,
+ "cap": 5,
+ "backend": "claude",
+ "started": "2026-11-08T23:57:19.251+00:00",
+ "rounds_played": 1,
+ "ended": "passed",
+ "dead_agents": [],
+ "state": "complete",
+ "finished": "2026-11-08T23:57:45.403+00:00",
+ "passed": true,
+ "submissions_used": 1,
+ "best_score": 1.0
+}

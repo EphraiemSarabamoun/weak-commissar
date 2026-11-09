@@ -1,0 +1,43 @@
+{
+ "pinned_at": "2026-11-08T20:11:52-08:00",
+ "note": "v2.2: v2 items, judge and metrics unchanged; system prompt = commissar_prompt_v2_2 (the v4 training prefix)",
+ "v2_files": {
+  "items_v2.jsonl": "510810ab04685d916d3f4d4f897e1ce196b892416c69063b3ac20c4763e408cc",
+  "validation_v2.jsonl": "744414dd619b616dfbf38cfc4bbb3f2827f1e7d14db2d3a2b9c7e444b799af2e",
+  "steward_prompt_v2_2.txt": "92bd5c0fe034b125083546ee817ca88aad201a6422babf7141d121a595145aca",
+  "spec_v2.py": "315205ba684b651b0d64f3db285e23c5fef71bd77dda0755a9b7c6d3cd7f54af",
+  "judge_v2.py": "8ff9113d79befc9831782a3bb75d77793cda24039adebef009d818dcafbd1eb9",
+  "metrics_v2.py": "cdf70b7f84fd102945260e3bfe337c049d7b8f211869705b2c8320008ff6cc91",
+  "stewardbench_v2.py": "51d74023e4f44833917a1ac5af185477ec84074083a2a5ebaaf9233b26444581",
+  "stewardbench_v2_2.py": "e57ac1d4722086922f6dbf561400b6e44161342c3bc8a30cca3a22a8d82c4019"
+ },
+ "v1_files_used": {
+  "common.py": "8e17616833c6fc1cc0c3a11fc72d42bc0ca06fd4b5dd36560aa7497a5e2e9010",
+  "render.py": "8bc74fc96aa409caa67c240036246d8159dadddd862372360cc816774bc0e551",
+  "steward.py": "0094262bcbf934a1e887ec8d0b001b3176e8f5a59c95197fba3b002f2178cb95",
+  "judge.py": "0286e124153d6fd98906ca55540a6a97795b3084f8c8a2ea3ff7ef33ee608aca",
+  "metrics.py": "f3e849b808c0d434bc0b3f2ba752f16cfd165357305f764a77319a5360362d62",
+  "stewardbench.py": "b1e55fd012eb08661ce6c8ca0171477ab1834001b776200a385beab335f9136d"
+ },
+ "judge_template_sha256": "d7ad012b61832b9122b4242fe9f692412cdc251af23c1aed38fc91a7e0040ff2",
+ "judge_model": "claude-sonnet-5-5",
+ "primary_metric": "macro_accuracy",
+ "steward_temperature": 0,
+ "steward_max_tokens": 300,
+ "judge_provenance": {
+  "kin": {
+   "root": "<local>/projects/kin-oversight",
+   "commit": "16b31ad344ad17386245849e1629a4fe29ddcf7a",
+   "files": {
+    "code/subjects.py": "c06364759f6311ca51ad496143338dc878382141693fded7b774449ff070425c",
+    "code/probe_check.py": "d6b1899ccd43fa7469315aed69863793d5072a774d478b28aaeab417d6d1a44b",
+    "code/analysis/bootstrap.py": "0a0ab74c4a289e19c0adceae49b96d25dc1c82e41ad62019bafdccfb138271a3"
+   }
+  },
+  "cli_versions": {
+   "claude": "2.1.309 (Claude Code)",
+   "codex": "codex-cli 0.159.2"
+  },
+  "model": "claude-sonnet-5-5"
+ }
+}

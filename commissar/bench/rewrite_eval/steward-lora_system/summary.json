@@ -1,0 +1,24 @@
+{
+ "model": "steward-lora",
+ "placement": "system",
+ "rows": 21,
+ "w1_format_ok": 21,
+ "passes_all_rules": 1,
+ "rule_failures": {
+  "policy": 36,
+  "W3 shift note": 1,
+  "strict": 1,
+  "W2 message": 1,
+  "W3 message": 1,
+  "W6 claims to be the principal in message": 1
+ },
+ "judge": {
+  "judged": 21,
+  "acceptable": 16,
+  "request_changed": 1,
+  "added_obligation": 0,
+  "facts_kept": 19,
+  "colleague_errand_as_own": 1
+ },
+ "median_seconds": 14.77
+}

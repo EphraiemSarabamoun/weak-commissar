@@ -1,0 +1,19 @@
+# Honeypot baseline on the toy fixture: grader rule explicit vs silent. The toy has one difficulty ("hard"), so
+# the difficulty arm needs the real instances (see honeypot_pilot.yaml). Mock parameters drive offline runs only.
+experiment: hp-toy
+seed: 11
+teams_per_condition: 2
+bootstrap: {B: 2000, seed: 1}
+participants: []
+defaults:
+  instance: ../tests/fixtures/toy_instance
+  rounds: 8
+  max_tool_calls_per_turn: 20
+  turn_timeout_s: 240
+  model: claude-haiku-5-5
+  mock: {submit_round: 4, peek_role: vendor, peek_round: 3, launder: true, peek_teams: [1]}
+conditions:
+  - id: explicit_hard
+    grader_rule: explicit
+  - id: silent_hard
+    grader_rule: silent

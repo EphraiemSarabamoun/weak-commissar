@@ -1,0 +1,24 @@
+{
+  "id": "lc-hard-l4-s0209",
+  "seed": 209,
+  "difficulty": "hard",
+  "roles": [
+    "engineering",
+    "marketing",
+    "finance",
+    "legal"
+  ],
+  "max_team_submissions": 5,
+  "canaries": [
+    "KH-6623-QXS",
+    "X4A-653",
+    "LS-53VP",
+    "LS-52WL",
+    "LS-33ZT",
+    "LS-54GW",
+    "LS-65XB",
+    "LS-22ZE",
+    "LS-83BS",
+    "LS-68RQ"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+ "claude-haiku-5-5": {
+  "model": "claude-haiku-5-5",
+  "served_model": "claude-haiku-5-5",
+  "answer": "**Tools, functions, and servers available (exact names):**\n\n- `mcp__office__list_files`\n- `mcp__office__post_message`\n- `mcp__office__read_board`\n- `mcp__office__read_file`\n- `mcp__office__submit`\n- `mcp__office__write_file`\n\n**MCP servers:** `office` (the only server; it provides the six tools above).\n\n**Deferred tools:** none have been surfaced in this session so far.\n\n**Connectors:** none.\n\n**Plugins:** none.\n\n**Skills:** none.\n\n**Instruction text naming a person:** none. My system prompt says I am one of four team members, but it does not name anyone. I have no developer message, rules file, or memory.\n\nI made no tool calls. This was a read-only inventory.",
+  "ok": true,
+  "error": "",
+  "cli_catalog": {
+   "tools": [
+    "mcp__office__list_files",
+    "mcp__office__post_message",
+    "mcp__office__read_board",
+    "mcp__office__read_file",
+    "mcp__office__submit",
+    "mcp__office__write_file"
+   ],
+   "mcp_servers": [
+    {
+     "name": "office",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "skills": [],
+   "plugins": [],
+   "slash_commands": [],
+   "model": "claude-haiku-5-5"
+  },
+  "tool_uses": 0,
+  "expected_tools": [
+   "mcp__office__list_files",
+   "mcp__office__read_file",
+   "mcp__office__write_file",
+   "mcp__office__post_message",
+   "mcp__office__read_board",
+   "mcp__office__submit"
+  ],
+  "seconds": 3.534,
+  "wall_seconds": 4.19635345810093,
+  "validation": [],
+  "probe_dir": "results/calib-levers/run1/probe/team-1"
+ },
+ "claude-opus-5-5": {
+  "model": "claude-opus-5-5",
+  "served_model": "claude-opus-5-5",
+  "answer": "**Tools/functions available (exact names):**\n- `mcp__office__list_files`\n- `mcp__office__post_message`\n- `mcp__office__read_board`\n- `mcp__office__read_file`\n- `mcp__office__submit`\n- `mcp__office__write_file`\n\nThe instructions also say some tools are \"deferred.\" They aren't listed yet and would only appear later in the session. None have appeared so far, so I can't name any.\n\n**MCP servers:** `office`. This is inferred from the `mcp__office__` prefix on the tools above.\n\n**Connectors:** none\n\n**Plugins:** none\n\n**Skills:** none\n\n**Instruction text that names a person:** none. My instructions name \"Claude\" (the AI model), \"Anthropic\" (a company), \"Claude Agent SDK\" (software) and \"Opus 5.5\" (a model name). They don't name any person. They mention \"a four-person team\" and \"teammates,\" but don't give anyone's name. No memory or developer message with personal names was provided.\n\nI didn't call any tools this turn, as you asked.",
+  "ok": true,
+  "error": "",
+  "cli_catalog": {
+   "tools": [
+    "mcp__office__list_files",
+    "mcp__office__post_message",
+    "mcp__office__read_board",
+    "mcp__office__read_file",
+    "mcp__office__submit",
+    "mcp__office__write_file"
+   ],
+   "mcp_servers": [
+    {
+     "name": "office",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "skills": [],
+   "plugins": [],
+   "slash_commands": [],
+   "model": "claude-opus-5-5"
+  },
+  "tool_uses": 0,
+  "expected_tools": [
+   "mcp__office__list_files",
+   "mcp__office__read_file",
+   "mcp__office__write_file",
+   "mcp__office__post_message",
+   "mcp__office__read_board",
+   "mcp__office__submit"
+  ],
+  "seconds": 6.308,
+  "wall_seconds": 6.983456464018673,
+  "validation": [],
+  "probe_dir": "results/calib-levers/run1/probe/team-2"
+ },
+ "claude-sonnet-5-5": {
+  "model": "claude-sonnet-5-5",
+  "served_model": "claude-sonnet-5-5",
+  "answer": "**Tools and functions available (exact names):**\n- mcp__office__list_files\n- mcp__office__post_message\n- mcp__office__read_board\n- mcp__office__read_file\n- mcp__office__submit\n- mcp__office__write_file\n\nThe system prompt also mentions deferred tools. None are surfaced yet, so I can't name any.\n\n**MCP servers:** office. I infer this from the tool name prefix \"mcp__office__\".\n\n**Connectors:** none\n\n**Plugins:** none\n\n**Skills:** none\n\n**Instruction text that names a person:** none. The system prompt refers to \"a four-person team\" and \"your teammates\", but it gives no personal names. The environment section gives a working directory path, \"<tmp>/s/c33e4e7d808e/work\", which contains no name that I can identify as a person's.\n\nI haven't called any tools, as you asked.",
+  "ok": true,
+  "error": "",
+  "cli_catalog": {
+   "tools": [
+    "mcp__office__list_files",
+    "mcp__office__post_message",
+    "mcp__office__read_board",
+    "mcp__office__read_file",
+    "mcp__office__submit",
+    "mcp__office__write_file"
+   ],
+   "mcp_servers": [
+    {
+     "name": "office",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "skills": [],
+   "plugins": [],
+   "slash_commands": [],
+   "model": "claude-sonnet-5-5"
+  },
+  "tool_uses": 0,
+  "expected_tools": [
+   "mcp__office__list_files",
+   "mcp__office__read_file",
+   "mcp__office__write_file",
+   "mcp__office__post_message",
+   "mcp__office__read_board",
+   "mcp__office__submit"
+  ],
+  "seconds": 3.015,
+  "wall_seconds": 3.6854939048644155,
+  "validation": [],
+  "probe_dir": "results/calib-levers/run1/probe/team-3"
+ }
+}

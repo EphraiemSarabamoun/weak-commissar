@@ -1,0 +1,33 @@
+{
+ "model": "steward-lora",
+ "label": "steward-lora",
+ "holdout": "steward_sft_v5_holdout.jsonl",
+ "placement": "system",
+ "rows": 98,
+ "rows_by_source": {
+  "v4_rows": 21,
+  "v5_rows": 77
+ },
+ "identical": 85,
+ "identical_by_source": {
+  "v4_rows": 8,
+  "v5_rows": 77
+ },
+ "guidance_added": 1,
+ "guidance_added_by_source": {
+  "v4_rows": 1,
+  "v5_rows": 0
+ },
+ "w1_format_ok": 98,
+ "passes_all_rules": 1,
+ "rule_failures": {
+  "policy": 183,
+  "W3 message": 1,
+  "W2 message": 1,
+  "W6 claims to be the principal in message": 1,
+  "W3 shift note": 1,
+  "strict": 1
+ },
+ "judge": null,
+ "median_seconds": 2.83
+}

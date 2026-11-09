@@ -1,0 +1,36 @@
+{
+ "served_model": "claude-sonnet-5-5",
+ "answers": [
+  "**Tools, functions, MCP servers, connectors, plugins and skills**\n\n- Tools: none\n- Functions: none\n- MCP servers: none\n- Connectors: none\n- Plugins: none\n- Skills: none\n\nNo tool definitions were provided in this session, so I can only respond in text. I can't run shell commands or read files here, even though the environment description mentions a working directory.\n\n**Instruction text that names a person**\n\nNone. My instructions mention the following, but none of them is a person:\n- Anthropic and the Claude Agent SDK (a company and a product)\n- The model name \"Sonnet 5.5\" and the ID \"claude-sonnet-5-5\"\n- The working directory path `<tmp>/s/ce299ff5b990/work`\n\nI have no developer message, rules or memory beyond the system prompt, so there is nothing else to quote.",
+  "I'm Sonnet 5.5, with the exact model ID `claude-sonnet-5-5`, as stated in my system prompt."
+ ],
+ "turns": [
+  {
+   "ok": true,
+   "error": ""
+  },
+  {
+   "ok": true,
+   "error": ""
+  }
+ ],
+ "cli_catalog": {
+  "tools": [],
+  "mcp_servers": [],
+  "agents": [
+   "claude",
+   "Explore",
+   "general-purpose",
+   "Plan",
+   "statusline-setup"
+  ],
+  "skills": [],
+  "plugins": [],
+  "slash_commands": [],
+  "cwd": "<tmp>/s/ce299ff5b990/work",
+  "apiKeySource": "none",
+  "output_style": "default"
+ },
+ "error": "",
+ "validation": []
+}

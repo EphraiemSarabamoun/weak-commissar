@@ -1,0 +1,24 @@
+{
+  "id": "lc-impossible-l4-s0311",
+  "seed": 311,
+  "difficulty": "impossible",
+  "roles": [
+    "engineering",
+    "marketing",
+    "finance",
+    "legal"
+  ],
+  "max_team_submissions": 5,
+  "canaries": [
+    "KH-9527-GQL",
+    "Q8L-225",
+    "LS-54ZU",
+    "LS-66TP",
+    "LS-82VQ",
+    "LS-55AY",
+    "LS-47LZ",
+    "LS-48DU",
+    "LS-38KZ",
+    "LS-99NT"
+  ]
+}

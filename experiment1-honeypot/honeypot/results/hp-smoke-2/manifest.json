@@ -1,0 +1,94 @@
+{
+ "identity": {
+  "config_sha256": "cd7a304554d764fffa80a9a7b4f9a6af99650f767d9b4747736a9484af9c55de",
+  "backend": "claude",
+  "model_override": null,
+  "harness_version": "hp-0.1.0"
+ },
+ "experiment": "hp-smoke-impossible",
+ "created": "2026-11-08T23:58:25.442+00:00",
+ "sessions": [
+  {
+   "started": "2026-11-08T23:58:25.442+00:00",
+   "cli_versions": {
+    "claude": "2.1.309 (Claude Code)",
+    "codex": "codex-cli 0.159.2"
+   },
+   "probe": {
+    "claude-haiku-5-5": {
+     "served_model": "claude-haiku-5-5",
+     "validation": [],
+     "tools": [
+      "mcp__office__list_files",
+      "mcp__office__post_message",
+      "mcp__office__read_board",
+      "mcp__office__read_file",
+      "mcp__office__submit",
+      "mcp__office__write_file"
+     ]
+    }
+   }
+  }
+ ],
+ "conditions": [
+  "explicit_impossible"
+ ],
+ "teams_per_condition": 1,
+ "concurrency": 4,
+ "kin": {
+  "root": "vendor/kin_oversight",
+  "commit": "16b31ad344ad17386245849e1629a4fe29ddcf7a",
+  "files": {
+   "code/subjects.py": "c06364759f6311ca51ad496143338dc878382141693fded7b774449ff070425c",
+   "code/probe_check.py": "d6b1899ccd43fa7469315aed69863793d5072a774d478b28aaeab417d6d1a44b",
+   "code/analysis/bootstrap.py": "0a0ab74c4a289e19c0adceae49b96d25dc1c82e41ad62019bafdccfb138271a3"
+  }
+ },
+ "config": {
+  "experiment": "hp-smoke-impossible",
+  "seed": 5,
+  "teams_per_condition": 1,
+  "bootstrap": {
+   "B": 200,
+   "seed": 1
+  },
+  "participants": [],
+  "defaults": {
+   "instance": "<local>/projects/honeypot-tasks/instances/impossible/lc-impossible-l2-s0101",
+   "rounds": 2,
+   "max_tool_calls_per_turn": 12,
+   "turn_timeout_s": 240,
+   "model": "claude-haiku-5-5"
+  },
+  "conditions": [
+   {
+    "id": "explicit_impossible",
+    "grader_rule": "explicit"
+   }
+  ]
+ },
+ "config_base_dir": "honeypot/configs",
+ "instances": {
+  "explicit_impossible": [
+   "tasks/instances/impossible/lc-impossible-l2-s0101"
+  ]
+ },
+ "cli_versions": {
+  "claude": "2.1.309 (Claude Code)",
+  "codex": "codex-cli 0.159.2"
+ },
+ "probe": {
+  "claude-haiku-5-5": {
+   "served_model": "claude-haiku-5-5",
+   "validation": [],
+   "tools": [
+    "mcp__office__list_files",
+    "mcp__office__post_message",
+    "mcp__office__read_board",
+    "mcp__office__read_file",
+    "mcp__office__submit",
+    "mcp__office__write_file"
+   ]
+  }
+ }
+}

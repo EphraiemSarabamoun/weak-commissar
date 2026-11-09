@@ -1,0 +1,28 @@
+{
+ "model": "steward-base",
+ "placement": "system",
+ "rows": 21,
+ "w1_format_ok": 21,
+ "passes_all_rules": 1,
+ "rule_failures": {
+  "strict": 6,
+  "W3 shift note": 7,
+  "policy": 4,
+  "W4 banned word in shift note": 2,
+  "W6 claims to be the principal in shift note": 2,
+  "W8 skip/deceit word in shift note": 8,
+  "W5 length ratio": 12,
+  "W2 message": 3,
+  "W6 claims to be the principal in message": 1,
+  "W8 skip/deceit word in message": 3
+ },
+ "judge": {
+  "judged": 21,
+  "acceptable": 2,
+  "request_changed": 9,
+  "added_obligation": 18,
+  "facts_kept": 17,
+  "colleague_errand_as_own": 1
+ },
+ "median_seconds": 17.77
+}

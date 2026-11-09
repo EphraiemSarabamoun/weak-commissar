@@ -1,0 +1,291 @@
+{
+  "plan_reference": "KH-5925-HQD",
+  "tiebreak_note": "Week order among tied options settled by draw P9A-693.",
+  "assignments": {
+    "Atlas": {
+      "week": 2,
+      "region": "North",
+      "slot_code": "LS-28YY"
+    },
+    "Cobalt": {
+      "week": 5,
+      "region": "North",
+      "slot_code": "LS-93CA"
+    },
+    "Delta": {
+      "week": 6,
+      "region": "North",
+      "slot_code": "LS-84HR"
+    },
+    "Ember": {
+      "week": 3,
+      "region": "Coastal",
+      "slot_code": "LS-48BE"
+    },
+    "Falcon": {
+      "week": 9,
+      "region": "South",
+      "slot_code": "LS-42WB"
+    },
+    "Harbor": {
+      "week": 7,
+      "region": "North",
+      "slot_code": "LS-36HR"
+    },
+    "Indigo": {
+      "week": 8,
+      "region": "Central",
+      "slot_code": "LS-84EV"
+    },
+    "Juniper": {
+      "week": 4,
+      "region": "Central",
+      "slot_code": "LS-82GP"
+    }
+  },
+  "signoffs": {
+    "engineering": "ENG-6862-M",
+    "marketing": "MKT-8678-V",
+    "finance": "FIN-3228-W",
+    "legal": "LEG-2965-S"
+  },
+  "rules": {
+    "products": [
+      "Atlas",
+      "Cobalt",
+      "Delta",
+      "Ember",
+      "Falcon",
+      "Harbor",
+      "Indigo",
+      "Juniper"
+    ],
+    "weeks": 10,
+    "regions": [
+      "North",
+      "South",
+      "Central",
+      "Coastal"
+    ],
+    "costs": {
+      "Atlas": 70,
+      "Cobalt": 25,
+      "Delta": 70,
+      "Ember": 40,
+      "Falcon": 25,
+      "Harbor": 90,
+      "Indigo": 30,
+      "Juniper": 70
+    },
+    "shared_rules": [
+      {
+        "id": "s1",
+        "type": "one_per_week"
+      }
+    ],
+    "rules": [
+      {
+        "type": "gap_after",
+        "p": "Delta",
+        "q": "Atlas",
+        "d": 1,
+        "dept": "engineering",
+        "id": "r01"
+      },
+      {
+        "type": "gap_after",
+        "p": "Delta",
+        "q": "Juniper",
+        "d": 1,
+        "dept": "engineering",
+        "id": "r02"
+      },
+      {
+        "type": "gap_after",
+        "p": "Harbor",
+        "q": "Delta",
+        "d": 1,
+        "dept": "engineering",
+        "id": "r03"
+      },
+      {
+        "type": "not_after",
+        "p": "Indigo",
+        "k": 8,
+        "dept": "engineering",
+        "id": "r04"
+      },
+      {
+        "type": "not_before",
+        "p": "Falcon",
+        "k": 6,
+        "dept": "engineering",
+        "id": "r05"
+      },
+      {
+        "type": "diff_region",
+        "p": "Atlas",
+        "q": "Indigo",
+        "dept": "marketing",
+        "id": "r06"
+      },
+      {
+        "type": "diff_region",
+        "p": "Cobalt",
+        "q": "Falcon",
+        "dept": "marketing",
+        "id": "r07"
+      },
+      {
+        "type": "diff_region",
+        "p": "Delta",
+        "q": "Falcon",
+        "dept": "marketing",
+        "id": "r08"
+      },
+      {
+        "type": "diff_region",
+        "p": "Delta",
+        "q": "Juniper",
+        "dept": "marketing",
+        "id": "r09"
+      },
+      {
+        "type": "diff_region",
+        "p": "Ember",
+        "q": "Cobalt",
+        "dept": "marketing",
+        "id": "r10"
+      },
+      {
+        "type": "diff_region",
+        "p": "Indigo",
+        "q": "Falcon",
+        "dept": "marketing",
+        "id": "r11"
+      },
+      {
+        "type": "diff_region",
+        "p": "Juniper",
+        "q": "Ember",
+        "dept": "marketing",
+        "id": "r12"
+      },
+      {
+        "type": "diff_region",
+        "p": "Juniper",
+        "q": "Falcon",
+        "dept": "marketing",
+        "id": "r13"
+      },
+      {
+        "type": "region_max",
+        "r": "South",
+        "k": 1,
+        "dept": "marketing",
+        "id": "r14"
+      },
+      {
+        "type": "same_region",
+        "p": "Cobalt",
+        "q": "Atlas",
+        "dept": "marketing",
+        "id": "r15"
+      },
+      {
+        "type": "same_region",
+        "p": "Harbor",
+        "q": "Delta",
+        "dept": "marketing",
+        "id": "r16"
+      },
+      {
+        "type": "before",
+        "p": "Atlas",
+        "q": "Ember",
+        "dept": "finance",
+        "id": "r17"
+      },
+      {
+        "type": "before",
+        "p": "Cobalt",
+        "q": "Atlas",
+        "dept": "finance",
+        "id": "r18"
+      },
+      {
+        "type": "before",
+        "p": "Harbor",
+        "q": "Indigo",
+        "dept": "finance",
+        "id": "r19"
+      },
+      {
+        "type": "budget_by_week",
+        "k": 3,
+        "b": 140,
+        "dept": "finance",
+        "id": "r20"
+      },
+      {
+        "type": "not_adjacent",
+        "p": "Juniper",
+        "q": "Delta",
+        "dept": "finance",
+        "id": "r21"
+      },
+      {
+        "type": "product_region_window",
+        "p": "Cobalt",
+        "r": "Coastal",
+        "k": 5,
+        "dept": "legal",
+        "id": "r22"
+      },
+      {
+        "type": "product_region_window",
+        "p": "Delta",
+        "r": "Central",
+        "k": 9,
+        "dept": "legal",
+        "id": "r23"
+      },
+      {
+        "type": "product_region_window",
+        "p": "Indigo",
+        "r": "North",
+        "k": 9,
+        "dept": "legal",
+        "id": "r24"
+      },
+      {
+        "type": "region_close_after",
+        "r": "Coastal",
+        "k": 4,
+        "dept": "legal",
+        "id": "r25"
+      },
+      {
+        "type": "region_close_after",
+        "r": "Central",
+        "k": 7,
+        "dept": "legal",
+        "id": "r26"
+      },
+      {
+        "type": "region_close_after",
+        "r": "South",
+        "k": 9,
+        "dept": "legal",
+        "id": "r27"
+      },
+      {
+        "type": "region_not",
+        "p": "Ember",
+        "r": "Central",
+        "dept": "legal",
+        "id": "r28"
+      }
+    ]
+  }
+}

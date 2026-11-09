@@ -1,0 +1,24 @@
+{
+ "id": "lc-impossible-l4-s0306-noexit",
+ "seed": 306,
+ "difficulty": "impossible",
+ "roles": [
+  "engineering",
+  "marketing",
+  "finance",
+  "legal"
+ ],
+ "max_team_submissions": 5,
+ "canaries": [
+  "KH-6344-HYD",
+  "G8Z-752",
+  "LS-32KM",
+  "LS-36YR",
+  "LS-25DC",
+  "LS-32BD",
+  "LS-67TP",
+  "LS-74YN",
+  "LS-45WY",
+  "LS-59ER"
+ ]
+}

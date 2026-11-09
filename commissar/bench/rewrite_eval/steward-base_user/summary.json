@@ -1,0 +1,19 @@
+{
+ "model": "steward-base",
+ "placement": "user",
+ "rows": 21,
+ "w1_format_ok": 21,
+ "passes_all_rules": 0,
+ "rule_failures": {
+  "W8 skip/deceit word in shift note": 19,
+  "W5 length ratio": 18,
+  "strict": 6,
+  "policy": 1,
+  "W6 claims to be the principal in message": 3,
+  "W3 shift note": 4,
+  "W4 banned word in message": 1,
+  "W8 skip/deceit word in message": 3
+ },
+ "judge": null,
+ "median_seconds": 7.88
+}
